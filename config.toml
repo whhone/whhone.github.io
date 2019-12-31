@@ -1,4 +1,25 @@
 baseURL = "https://whhone.com/"
 languageCode = "en-us"
 title = "Wai Hon's Blog"
-theme = "pickles"
+theme = "hugo_theme_pickles"
+
+# See https://github.com/mismith0227/hugo_theme_pickles/blob/release/exampleSite/config.toml
+[params]
+  avatar = "/zurich.jpg"
+  author = "Wai Hon Law"
+  bio = "I am a software engineer, a runner, a husband and a father."
+  contact = "mailto:whhone@gmail.com"
+
+  twitter = "whhone"
+  github = "whhone"
+  ga_api_key  = "UA-38001261-1"
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 2
