@@ -1,0 +1,4 @@
+baseURL = "https://whhone.com/"
+languageCode = "en-us"
+title = "Wai Hon's Blog"
+theme = "pickles"
