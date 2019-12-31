@@ -23,3 +23,6 @@ theme = "hugo_theme_pickles"
     name = "About"
     url = "/about"
     weight = 2
+
+[permalinks]
+  posts = "/:year/:month/:filename/"

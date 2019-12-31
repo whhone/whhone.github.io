@@ -1,10 +1,9 @@
 ---
-title: "Kubernetes for Personal Project"
-date: 2019-12-30T20:18:22-08:00
-draft: false
+title: "Kubernetes for Personal Projects"
+date: 2019-12-29T20:18:22-08:00
 ---
 
-*If you are reading this post trying to set up Kubernetes for your personal projects, it will disappoint you.*
+*This is about why I was not using Kubernetes personal projects. If you are reading this post trying to set up Kubernetes, it will disappoint you.*
 
 Yesterday, I saw a very cool self-hosted project ([anki-sync-server](https://github.com/ankicommunity/anki-sync-server)) and I would like to host it myself.
 
