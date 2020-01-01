@@ -5,6 +5,7 @@ theme = "hugo_theme_pickles"
 
 # See https://github.com/mismith0227/hugo_theme_pickles/blob/release/exampleSite/config.toml
 [params]
+  favicon = "/favicon.ico"
   avatar = "/zurich.jpg"
   author = "Wai Hon Law"
   bio = "I am a software engineer, a runner, a husband and a father."
