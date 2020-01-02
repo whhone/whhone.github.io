@@ -3,6 +3,21 @@ languageCode = "en-us"
 title = "Wai Hon's Blog"
 theme = "hugo_theme_pickles"
 
+# Permalinks is the permanent link to a post. It is supposed to be permanent and
+# as simple as possible.
+#
+# - The file name ("/:filename/") is used because it could be permanent is
+#   simple.
+# - The date ("/:year/:month/") is not being used because it makes the link
+#   longer. If the post is time-related, we can always include the time in the
+#   file name.
+# - The title (":title") is not being used because it could be changed after
+#   publishing the post.
+[permalinks]
+  posts = "/:filename/"
+
+# Theme's configuration.
+#
 # See https://github.com/mismith0227/hugo_theme_pickles/blob/release/exampleSite/config.toml
 [params]
   favicon = "/favicon.ico"
@@ -25,5 +40,3 @@ theme = "hugo_theme_pickles"
     url = "/about"
     weight = 2
 
-[permalinks]
-  posts = "/:year/:month/:filename/"
