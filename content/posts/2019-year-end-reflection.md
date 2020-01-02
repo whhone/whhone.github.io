@@ -7,7 +7,7 @@ To me, 2019 is the year of changes, in terms of new habits developed and the new
 
 Here are what I have done.
 
-**I completed 9 English books.** This number was a shameful ZERO for the 28 years before 2019. (Even when I was a student and being tasked to write book reports, I just paraphrased the introduction and/or some random pages of the books.) Reading have instilled new ideas into myself and also ignite some other habits.
+**I completed 9 English books.** This number was a shameful ZERO for the 28 years before 2019. (Even when I was a student and being tasked to write book reports, I just paraphrased the introduction and/or some random pages of the books.) Reading have instilled new ideas into myself and also ignited other habits.
 
 **I crammed 2000+ new vocabularies into my head.** Last year, I knew spaced repetition from "Learning How to Learn" [1] and started memorizing vocabularies. Whenever I encounter new vocabularies (mostly from reading), I add them to my Anki collection and review daily. I use "crammed" instead of "learnt" because I still cannot use most of them. This is something I need to fix in 2020.
 
