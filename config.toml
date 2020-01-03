@@ -23,7 +23,7 @@ theme = "hugo_theme_pickles"
   favicon = "/favicon.ico"
   avatar = "/zurich.jpg"
   author = "Wai Hon Law"
-  bio = "I am a software engineer, a runner, a husband and a father."
+  bio = "Software Engineer, Runner, Husband, Father."
   contact = "mailto:whhone@gmail.com"
 
   twitter = "whhone"
