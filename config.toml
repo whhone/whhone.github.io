@@ -21,7 +21,7 @@ theme = "hugo_theme_pickles"
 # See https://github.com/mismith0227/hugo_theme_pickles/blob/release/exampleSite/config.toml
 [params]
   favicon = "/favicon.ico"
-  avatar = "/zurich.jpg"
+  avatar = "/img/avatar.jpg"
   author = "Wai Hon Law"
   bio = "Software Engineer, Runner, Husband, Father."
   contact = "mailto:whhone@gmail.com"
