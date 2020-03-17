@@ -13,7 +13,7 @@ Here are what I have done.
 
 **I meditated.** After reading fews books that recommend meditation unanimously, I started with Headspace. I have to say being mindful has the magic power to change other axises.
 
-**I kept a daily journal.** When people ask me why keeping a journal, my 2019 answer was to track TODO and activity log, then review at the end of the day. My 2020 answer is to make every day meaningful and counted. I will share the nuances in another post later.
+**I kept a daily journal.** When people ask me why keeping a journal, my 2019 answer was to track TODO and activity log, then review at the end of the day. My 2020 answer is to make every day meaningful and counted. I will share the nuances in another post later. (Update on 2020-03-15: See [Daily Journal](/posts/daily-journal/))
 
 **I logged 1000 miles into Strava.**  This is actually far less than my targeted 1500 miles. I have been running for 17 years and never going to cease, although, with Casper, squeezing time for exercising will be much challenging. On the bright side, this could be an excuse for ignoring the pacing and millage :p
 
