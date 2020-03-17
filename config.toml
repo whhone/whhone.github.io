@@ -28,5 +28,6 @@ theme = "hugo_theme_pickles"
 
   twitter = "whhone"
   github = "whhone"
+  facebook = "whhone"
   ga_api_key  = "UA-38001261-1"
   disqus = "wai-hons-blog"
