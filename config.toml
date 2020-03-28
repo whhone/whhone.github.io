@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Wai Hon's Blog"
 theme = "hugo_theme_pickles"
 
+# Google Analytics API key.
+googleAnalytics = "UA-38001261-1"
+
 # Permalinks is the permanent link to a post. It is supposed to be permanent and
 # as simple as possible.
 #
@@ -29,5 +32,4 @@ theme = "hugo_theme_pickles"
   twitter = "whhone"
   github = "whhone"
   facebook = "whhone"
-  ga_api_key  = "UA-38001261-1"
-  disqus = "wai-hons-blog"
+  # disqus = "wai-hons-blog"
