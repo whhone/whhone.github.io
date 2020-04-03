@@ -7,13 +7,13 @@ It is probably easier to explain what ineffective reading is first.
 
 If you are "seeing" the words without processing, no matter how many words you "see" per minute, it is ineffective. If you cannot recall or refer to the key concepts of an inspiring book you have read in the past, no matter how many books you have read, it is ineffective. If you cannot implement what you read and make some differences in real life, no matter how many books you are aiming to read in a year, it is ineffective.
 
-So, what is effective reading? **"Effectiveness"** here means maximizing the understanding, the usage and the retaining of knowledge for the future per unit of time spent reading.
+So, what is effective reading? **"Effectiveness"** here means maximizing the understanding, the usage and the retention of knowledge for the future per unit of time spent reading.
 
 Ineffective reading is always a problem. So far, I have developed three ways to make reading less ineffective.
 
 1. Mindful Reading - for understanding
 2. Summarization - for discoverability
-3. Digital Flashcard - for retaining
+3. Digital Flashcard - for retention
 
 ### 1. Mindful Reading
 
