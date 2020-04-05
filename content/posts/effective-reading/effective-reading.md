@@ -39,6 +39,8 @@ This is my summary for "Clean Architecture Ch.22". When I read the note, I first
 
 ### 3. Digital Flashcards
 
+If you've got a leaky bucket, you're better off fixing the leak before pouring water in the top.
+
 I mentioned above that we, humans, forget and it is okay to forget. What if we need to retain something in the brain? For instance, memorizing vocabularies could reduce the effort of checking a dictionary (and thus making reading more effective!). Internalizing key concepts could make it easier to utilize them.
 
 My method is to formulate the knowledge into digital flashcards and review them with spaced repetition. (I review the cards every night when I am holding my sleeping Casper.)
