@@ -22,7 +22,7 @@ According to Charles Duhigg, author of [The Power of Habit](https://amzn.to/2wUs
 
 In other words, keystone habits are habits that build other habits. Some common keystone habits are exercising, meditation, good sleep, journaling etc. _(These examples might sound boring and not as cool as the "keystone habits" :-p )_
 
-Good keystone habits are worth investing in and their domino effects will make huge impacts in the long term. Time will magnify the results. Although we know keystone habits are great, the problem is, like all habits, they could break. According to US News, [80% of new year's resolutions fail by the second week of Feburary]((https://health.usnews.com/health-news/blogs/eat-run/articles/2015-12-29/why-80-percent-of-new-years-resolutions-fail)).
+Good keystone habits are worth investing in and their domino effects will make huge impacts in the long term. Time will magnify the results. Although we know keystone habits are great, the problem is, like all habits, they could break. According to US News, [80% of new year's resolutions fail by the second week of Feburary](https://health.usnews.com/health-news/blogs/eat-run/articles/2015-12-29/why-80-percent-of-new-years-resolutions-fail).
 
 How to make good (keystone) habits stick? Well, let's build the keystone habit of keystone habits.
 
