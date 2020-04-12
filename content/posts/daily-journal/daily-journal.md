@@ -3,7 +3,7 @@ title: "Daily Journal"
 date: 2020-03-15T14:57:36-07:00
 ---
 
-In the previous post [2019 Year-End Reflection](/posts/2019-year-end-reflection/), I wrote:
+In the previous post [2019 Year-End Reflection](/2019-year-end-reflection/), I wrote:
 
 > _I kept a daily journal. When people ask me why keeping a journal, my 2019 answer was to track TODO and activity log, then review at the end of the day. My 2020 answer is to make every day meaningful and counted. I will share the nuances in another post later._
 
