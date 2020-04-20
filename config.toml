@@ -1,7 +1,6 @@
 baseURL = "https://whhone.com/"
 languageCode = "en-us"
 title = "Wai Hon's Blog"
-theme = "hugo_theme_pickles"
 
 # Google Analytics API key.
 googleAnalytics = "UA-38001261-1"
@@ -33,3 +32,8 @@ googleAnalytics = "UA-38001261-1"
   github = "whhone"
   facebook = "whhone"
   # disqus = "wai-hons-blog"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 2
