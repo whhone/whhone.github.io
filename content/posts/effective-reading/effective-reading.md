@@ -1,7 +1,7 @@
 ---
 title: "Effective Reading"
+description: "How to read effectively for better understanding, discoverability and retention."
 date: 2020-02-02T11:56:17-08:00
-draft: false
 ---
 It is probably easier to explain what ineffective reading is first. 
 

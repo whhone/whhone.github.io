@@ -1,5 +1,6 @@
 ---
 title: "Kubernetes for Personal Projects"
+description: "This is about why I was not using Kubernetes personal projects."
 date: 2019-12-29T20:18:22-08:00
 ---
 

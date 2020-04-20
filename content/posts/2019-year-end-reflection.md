@@ -1,9 +1,9 @@
 ---
 title: "2019 Year-End Reflection"
+description: "2019 is the year of changes to me, in terms of new habits developed and the new responsibility of becoming a father. Here are what I have done."
 date: 2019-12-31T20:03:42-08:00
-draft: false
 ---
-To me, 2019 is the year of changes, in terms of new habits developed and the new responsibility of becoming a father. 
+2019 is the year of changes to me, in terms of new habits developed and the new responsibility of becoming a father. 
 
 Here are what I have done.
 

@@ -1,5 +1,6 @@
 ---
 title: "Daily Journal"
+description: "What I write in my daily journal with activity log, most important TODOs and daily highlights."
 date: 2020-03-15T14:57:36-07:00
 ---
 
