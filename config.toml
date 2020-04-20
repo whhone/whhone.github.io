@@ -5,6 +5,9 @@ title = "Wai Hon's Blog"
 # Google Analytics API key.
 googleAnalytics = "UA-38001261-1"
 
+# Disqus Integration. See https://gohugo.io/content-management/comments/.
+disqusShortname = "wai-hons-blog"
+
 # Permalinks is the permanent link to a post. It is supposed to be permanent and
 # as simple as possible.
 #
@@ -31,7 +34,6 @@ googleAnalytics = "UA-38001261-1"
   twitter = "whhone"
   github = "whhone"
   facebook = "whhone"
-  # disqus = "wai-hons-blog"
 
 [[menu.main]]
   name = "Home"
