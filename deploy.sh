@@ -1,2 +1,5 @@
 # Build and upload the site.
-hugo && rsync -aP --delete public/ whhone.com:/var/www/whhone.com/
+
+OUTPUT_DIR=/tmp/whhone/public/
+
+hugo -d ${OUTPUT_DIR} && rsync -aP --delete ${OUTPUT_DIR} whhone.com:/var/www/whhone.com/
