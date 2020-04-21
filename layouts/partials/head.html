@@ -7,7 +7,7 @@
   <meta name="twitter:title" content="{{ . }}" />
   {{ end }}
 
-  {{ with .Description | default ($.Param "subtitle") }}
+  {{ with .Description | default ($.Param "description") }}
   <meta name="description" content="{{ . }}">
   <meta property="og:description" content="{{ . }}">
   <meta name="twitter:description" content="{{ . | truncate 200 }}">

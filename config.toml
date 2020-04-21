@@ -1,3 +1,5 @@
+# Configuration Settings
+# See https://gohugo.io/getting-started/configuration/
 baseURL = "https://whhone.com/"
 languageCode = "en-us"
 title = "Wai Hon's Blog"
@@ -21,16 +23,17 @@ disqusShortname = "wai-hons-blog"
 [permalinks]
   posts = "/:filename/"
 
-# Theme's configuration.
-#
-# See https://github.com/mismith0227/hugo_theme_pickles/blob/release/exampleSite/config.toml
+# The ".Site.Params" Variable.
+# See https://gohugo.io/variables/site/#site-variables-list
 [params]
-  favicon = "/ico/favicon.ico"
-  avatar = "/img/avatar.jpg"
   author = "Wai Hon Law"
+  avatar = "/img/avatar.jpg"
   bio = "Software Engineer at Google, Runner, Reader, Husband, Father."
+  description = "The Personal Blog of Wai Hon Law (whhone)"
   email = "whhone@gmail.com"
+  favicon = "/ico/favicon.ico"
 
+  # Social Links
   twitter = "whhone"
   github = "whhone"
   facebook = "whhone"
