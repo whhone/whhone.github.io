@@ -39,3 +39,8 @@ disqusShortname = "wai-hons-blog"
   name = "Home"
   url = "/"
   weight = 2
+
+[[menu.main]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 10
