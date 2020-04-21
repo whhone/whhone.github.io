@@ -13,12 +13,8 @@
     {{ with ($.Param "bio") }}
     <p>{{ . }}</p>
     {{ end }}
-    {{ with ($.Param "contact") }}
-    <p>
-      <a href="{{ . }}">
-        Contact me
-      </a>
-    </p>
+    {{ with ($.Param "email") }}
+    <p>{{ . }}</p>
     {{ end }}
   </div>
   {{ end }}

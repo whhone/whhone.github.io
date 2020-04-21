@@ -29,7 +29,7 @@ disqusShortname = "wai-hons-blog"
   avatar = "/img/avatar.jpg"
   author = "Wai Hon Law"
   bio = "Software Engineer, Runner, Husband, Father."
-  contact = "mailto:whhone@gmail.com"
+  email = "whhone@gmail.com"
 
   twitter = "whhone"
   github = "whhone"
