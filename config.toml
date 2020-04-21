@@ -25,7 +25,7 @@ disqusShortname = "wai-hons-blog"
 #
 # See https://github.com/mismith0227/hugo_theme_pickles/blob/release/exampleSite/config.toml
 [params]
-  favicon = "/favicon.ico"
+  favicon = "/ico/favicon.ico"
   avatar = "/img/avatar.jpg"
   author = "Wai Hon Law"
   bio = "Software Engineer, Runner, Husband, Father."
