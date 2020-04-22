@@ -1,5 +1,6 @@
 ---
 title: "Productivity System"
+slug: "productivity-system"
 description: "Creating a system to manage myself."
 date: 2020-01-12T13:09:21-08:00
 ---
@@ -27,9 +28,9 @@ For my own system, it is influenced by GTD but with some modifications. I sticke
 
 Lastly, adding two screenshots which might tell more than the words.
 
-![notebook-list](/posts/productivity-system/notebook-list.png)
+![notebook-list](notebook-list.png)
 
-![remindar](/posts/productivity-system/reminder.png)
+![remindar](reminder.png)
 
 
 - [1] https://en.wikipedia.org/wiki/Getting_Things_Done

@@ -1,5 +1,6 @@
 ---
 title: "Building Habits"
+slug: "building-habits"
 description: "How I build habits with keystone habits and habit tracker."
 date: 2020-04-05T09:30:00-07:00
 ---
@@ -37,7 +38,7 @@ However, TODOs and habits are fundamentally different. For example, habits repea
 
 Hence, I split them into a standalone habit tracker app. My second (current) habit tracker becomes a standalone app.
 
-![habit-tracker-app](/posts/building-habit/habit-tracker-app.png)
+![habit-tracker-app](habit-tracker-app.png)
 
 That is how I build habits now.
 

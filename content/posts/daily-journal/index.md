@@ -1,5 +1,6 @@
 ---
 title: "Daily Journal"
+slug: "daily-journal"
 description: "What I write in my daily journal with activity log, most important TODOs and daily highlights."
 date: 2020-03-15T14:57:36-07:00
 ---
@@ -14,7 +15,7 @@ In this post, I will share how I got started and the 3 components of my daily jo
 2. Most Important TODOs
 3. Daily Highlights
 
-![daily-journal](/posts/daily-journal/daily-journal.jpg)
+![daily-journal](daily-journal.jpg)
 
 ### Activity Log
 
@@ -26,7 +27,7 @@ How much hours do I spend on deep and shallow work respectively? I don't really 
 
 This was my very first daily journal :-)
 
-![Deep Work Hours](/posts/daily-journal/deep-work-hours.png)
+![Deep Work Hours](deep-work-hours.png)
 
 I found the activity log does not only track the deep and shallow hours, but also proved the [Planning Fallacy](https://en.wikipedia.org/wiki/Planning_fallacy) to me:
 
@@ -38,7 +39,7 @@ I have estimated a task that takes one day but it took me 3 days to finish. Acti
 
 I have two TODO lists for each day. The **everything list** and the **most important list**. As the names imply, the everything list holds all TODOs scheduled for the day and the most important list holds the most important TODOs of the day. 
 
-![Most Important TODOs](/posts/daily-journal/most-important-todos.jpg)
+![Most Important TODOs](most-important-todos.jpg)
 
 So, why do I need two lists?
 

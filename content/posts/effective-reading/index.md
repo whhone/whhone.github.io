@@ -1,5 +1,6 @@
 ---
 title: "Effective Reading"
+slug: "effective-reading"
 description: "How to read effectively for better understanding, discoverability and retention."
 date: 2020-02-02T11:56:17-08:00
 ---
@@ -29,11 +30,11 @@ Summarization is like building a personal index. It allows you to navigate throu
 
 The method I use is Tiago Forte's **Progressive Summarization** [1]. It highlights and formats the readings into layers. The higher layers are compressed to make the notes discoverable and the lower layers provide context.
 
-![progressive-summarization](/posts/effective-reading/progressive-summarization.jpeg)
+![progressive-summarization](progressive-summarization.jpeg)
 
 #### A real example 1
 
-![progressive-summarization-example](/posts/effective-reading/progressive-summarization-example.png)
+![progressive-summarization-example](progressive-summarization-example.png)
 
 This is my summary for "Clean Architecture Ch.22". When I read the note, I first look at the top summary (layer 4), and then the yellow highlight (layer 3). This should give me most idea of what this chapter is about. If I need more, then I read the bold (layer 2) highlights and then the plain text highlights to get more context. If I still need more, then I could go to the original chapter.
 
@@ -49,7 +50,7 @@ SuperMemo and Anki are among the popular software in this realm. No matter which
 
 #### A real example 2
 
-![anki-example](/posts/effective-reading/anki-example.png)
+![anki-example](anki-example.png)
 
 After creating the summary above, I think "Dependency Rule" is a very key concept that is worth memorizing, so I create a corresponding flashcard. When reviewing the card, if this feels "easy" to me, I will tap "16d Easy" to snooze the card 16 days later. If I cannot recall the meaning in 10 seconds, then I tap "<10 min Again".
 

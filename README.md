@@ -7,5 +7,5 @@ hugo server -D
 # New Post
 
 ```
-hugo new posts/a-title/a-title.md
+hugo new --kind post posts/the-title
 ```
