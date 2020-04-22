@@ -13,15 +13,16 @@ disqusShortname = "wai-hons-blog"
 # Permalinks is the permanent link to a post. It is supposed to be permanent and
 # as simple as possible.
 #
-# - The file name ("/:filename/") is used because it could be permanent is
-#   simple.
+# - The slug ("/:slug/") is used because it could be permanent is simple.
+# - The file name ("/:filename/") is also simple and permanent but it is too
+#   make the file name repeats the directory name.
 # - The date ("/:year/:month/") is not being used because it makes the link
 #   longer. If the post is time-related, we can always include the time in the
 #   file name.
 # - The title (":title") is not being used because it could be changed after
 #   publishing the post.
 [permalinks]
-  posts = "/:filename/"
+  posts = "/:slug/"
 
 # The ".Site.Params" Variable.
 # See https://gohugo.io/variables/site/#site-variables-list

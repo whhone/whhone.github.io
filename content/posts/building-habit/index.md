@@ -1,5 +1,6 @@
 ---
 title: "Building Habits"
+slug: "building-habits"
 description: "How I build habits with keystone habits and habit tracker."
 date: 2020-04-05T09:30:00-07:00
 ---
