@@ -45,6 +45,6 @@ disqusShortname = "wai-hons-blog"
   weight = 2
 
 [[menu.main]]
-  name = "RSS"
-  url = "/index.xml"
+  name = "Feed"
+  url = "http://feeds.feedburner.com/whhone"
   weight = 10
