@@ -5,7 +5,7 @@ description: "What I write in my daily journal with activity log, most important
 date: 2020-03-15T14:57:36-07:00
 ---
 
-In the previous post [2019 Year-End Reflection](/2019-year-end-reflection/), I wrote:
+In the previous post [2019 Year-End Reflection]({{< relref "posts/2019-year-end-reflection" >}}), I wrote:
 
 > _I kept a daily journal. When people ask me why keeping a journal, my 2019 answer was to track TODO and activity log, then review at the end of the day. My 2020 answer is to make every day meaningful and counted. I will share the nuances in another post later._
 
@@ -47,7 +47,7 @@ Without the important list, the everything list, which consists of many importan
 
 > _It feels good to chip away at the smaller tasks nibbling at your brain, but the time you spend doing so is time you’re not spending on bigger, more important projects._
 
-That means I tend to check off many small and easy TODOs but not getting the important and hard ones done. To fix it, each morning, I go through the everything list from my [Productivity System](/productivity-system) and curate TODOs to form the most important list. Then, focus on the most important list before going back to the everything list.
+That means I tend to check off many small and easy TODOs but not getting the important and hard ones done. To fix it, each morning, I go through the everything list from my [Productivity System]({{< relref "posts/productivity-system" >}}) and curate TODOs to form the most important list. Then, focus on the most important list before going back to the everything list.
 
 That does not mean the everything list is useless. These two lists are complementary. Without the everything list, brainstorming the most important list out of nothing is an arduous task. Those important TODOs could be too ad hoc and hence not really important.
 
@@ -57,7 +57,7 @@ The most important list also has a variation called the "1-3-5 Rule".
 
 Daily highlight is my 2020 answer to daily journal.
 
-The activity log and the most important TODOs list mentioned above had worked very well for me, until I was reviewing the journal in the [last year end](/2019-year-end-reflection/). I found my journal is boring and full of little things that are not interesting to me anymore. Those "fix bug XXX", "weekly YYY meeting" or "implement feature ZZZ" got the things done but I no longer care about them.
+The activity log and the most important TODOs list mentioned above had worked very well for me, until I was reviewing the journal in the [last year end]({{< relref "posts/2019-year-end-reflection" >}}). I found my journal is boring and full of little things that are not interesting to me anymore. Those "fix bug XXX", "weekly YYY meeting" or "implement feature ZZZ" got the things done but I no longer care about them.
 
 I asked myself, how can I make every day I lived meaningful and counted, so that some days in the future, I can reminisce?
 

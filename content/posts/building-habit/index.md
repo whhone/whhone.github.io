@@ -32,7 +32,7 @@ How to make good (keystone) habits stick? Well, let's build the keystone habit o
 
 In my humble opinion, habit tracker is the keystone habit of keystone habits because it holds the explicit cues to other habits / keystone habits. It is beautiful because it allows me to keep only one, instead of all immature habits in mind. It makes habit building much easier!
 
-My first habit tracker was my [Evernote Productivity System](/productivity-system/). It simply held all my TODOs and daily habits. 
+My first habit tracker was my [Evernote Productivity System]({{< relref "/posts/productivity-system" >}}). It simply held all my TODOs and daily habits. 
 
 However, TODOs and habits are fundamentally different. For example, habits repeat and repeat very often but TODOs are not. Habits are more okay to break if the reclaiming is fast. The value of habits are measured over time. That said, mixing habits and TODOs in the same list obscures the important TODOs. 
 
