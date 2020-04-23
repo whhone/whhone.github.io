@@ -3,6 +3,9 @@ title: "Building Habits"
 slug: "building-habits"
 description: "How I build habits with keystone habits and habit tracker."
 date: 2020-04-05T09:30:00-07:00
+resources:
+  - name: habit-tracker-app.png
+    src: habit-tracker-app.png
 ---
 
 The recent shelter-in-place / stay-at-home order has dramatically changed our routines. I don't need to commute to office so I do not listen to podcasts. I don't have morning coffee since I have no access to the mirco-kitchen in the office. I walk less as I stay at home all day. I started doing daily push up because it is less awkward to do at home, compared to the office. I spend more time with Casper because he is just nearby. Even on my Strava feed, some friends seem to have disappeared while some friends start showing up more days.
@@ -38,7 +41,7 @@ However, TODOs and habits are fundamentally different. For example, habits repea
 
 Hence, I split them into a standalone habit tracker app. My second (current) habit tracker becomes a standalone app.
 
-![habit-tracker-app](habit-tracker-app.png)
+{{< figure src="habit-tracker-app.png" >}}
 
 That is how I build habits now.
 
