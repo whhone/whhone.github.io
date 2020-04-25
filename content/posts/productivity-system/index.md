@@ -3,6 +3,11 @@ title: "Productivity System"
 slug: "productivity-system"
 description: "Creating a system to manage myself."
 date: 2020-01-12T13:09:21-08:00
+resources:
+  - name: notebook-list.png
+    src: notebook-list.png
+  - name: reminder.png
+    src: reminder.png
 ---
 In this era, there are "productive people" who use "productivity systems" to manage day-to-day chores, TODOs, notes and so on. These productivity systems are usually note taking apps (Apple Notes, Evernote, Google Keep, OneNote),  task manager apps (Todoist, Wunderlist, TickTick), paper notebooks or the combination of them.
 
@@ -28,10 +33,9 @@ For my own system, it is influenced by GTD but with some modifications. I sticke
 
 Lastly, adding two screenshots which might tell more than the words.
 
-![notebook-list](notebook-list.png)
+{{< figure src="notebook-list.png" caption="Evernote Notebooks" >}}
 
-![remindar](reminder.png)
-
+{{< figure src="reminder.png" caption="Evernote Reminders" >}}
 
 - [1] https://en.wikipedia.org/wiki/Getting_Things_Done
 - [2] https://bulletjournal.com/
