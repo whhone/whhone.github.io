@@ -17,7 +17,7 @@ In this post, I will share how I got started and the 3 components of my daily jo
 
 ![daily-journal](daily-journal.jpg)
 
-### Activity Log
+## Activity Log
 
 The activity log is what brought me to journaling after reading Cal Newport's [Deep Work](https://www.goodreads.com/book/show/25744928-deep-work):
 
@@ -35,7 +35,7 @@ I found the activity log does not only track the deep and shallow hours, but als
 
 I have estimated a task that takes one day but it took me 3 days to finish. Activity log gave me a sense of how my time is spent and how much time do I need for a specific kind of task. Later at night, I can also use this activity log to review what I have done in a day.
 
-### Most Important TODOs
+## Most Important TODOs
 
 I have two TODO lists for each day. The **everything list** and the **most important list**. As the names imply, the everything list holds all TODOs scheduled for the day and the most important list holds the most important TODOs of the day. 
 
@@ -53,7 +53,7 @@ That does not mean the everything list is useless. These two lists are complemen
 
 The most important list also has a variation called the "1-3-5 Rule".
 
-### Daily Highlight
+## Daily Highlight
 
 Daily highlight is my 2020 answer to daily journal.
 

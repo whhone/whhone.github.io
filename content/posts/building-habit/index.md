@@ -19,7 +19,7 @@ In terms of personal development, it is a waste if we don't deliberately build g
 
 If good habits do not come automatically, how to build them effectively?
 
-### The Keystone Habits
+## The Keystone Habits
 
 According to Charles Duhigg, author of [The Power of Habit](https://amzn.to/2wUsd65), 
 
@@ -31,7 +31,7 @@ Good keystone habits are worth investing in and their domino effects will make h
 
 How to make good (keystone) habits stick? Well, let's build the keystone habit of keystone habits.
 
-### Habit Tracker (The Keystone Habit of Keystone Habits)
+## Habit Tracker (The Keystone Habit of Keystone Habits)
 
 In my humble opinion, habit tracker is the keystone habit of keystone habits because it holds the explicit cues to other habits / keystone habits. It is beautiful because it allows me to keep only one, instead of all immature habits in mind. It makes habit building much easier!
 
@@ -45,7 +45,7 @@ Hence, I split them into a standalone habit tracker app. My second (current) hab
 
 That is how I build habits now.
 
-### The Two Books
+## The Two Books
 
 Habit is an interesting topic and it has gotten traction in recent years, thanks to two best seller books.
 

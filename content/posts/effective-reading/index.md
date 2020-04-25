@@ -16,13 +16,13 @@ Ineffective reading is always a problem. So far, I have developed three ways to 
 2. Summarization - for discoverability
 3. Digital Flashcard - for retention
 
-### 1. Mindful Reading
+## 1. Mindful Reading
 
 Mindful reading is the first key to read effectively. It ensures you are really reading and understanding what the author is saying.
 
 The converse of mindful reading is mindless reading. During mindless reading, we are seeing the words instead of understanding them. We are not able to recall what we read one minute ago. When I realize I am reading mindlessly, I stop, do something else or take some rest. Mindless reading is ineffective. It is a waste of time and energy.
 
-### 2. Summarization
+## 2. Summarization
 
 Understanding decays because we, humans, forget. It is okay to forget. However, when we need to use a piece of forgotten knowledge, we want to be able to reload the knowledge as fast as possible. 
 
@@ -32,13 +32,13 @@ The method I use is Tiago Forte's **Progressive Summarization** [1]. It highligh
 
 ![progressive-summarization](progressive-summarization.jpeg)
 
-#### A real example 1
+### A real example 1
 
 ![progressive-summarization-example](progressive-summarization-example.png)
 
 This is my summary for "Clean Architecture Ch.22". When I read the note, I first look at the top summary (layer 4), and then the yellow highlight (layer 3). This should give me most idea of what this chapter is about. If I need more, then I read the bold (layer 2) highlights and then the plain text highlights to get more context. If I still need more, then I could go to the original chapter.
 
-### 3. Digital Flashcards
+## 3. Digital Flashcards
 
 If you've got a leaky bucket, you're better off fixing the leak before pouring water in the top.
 
@@ -48,13 +48,13 @@ My method is to formulate the knowledge into digital flashcards and review them 
 
 SuperMemo and Anki are among the popular software in this realm. No matter which software to use, read these twenty rules [2] published by SuperMemo about the best practices of formulating knowledge. "Do not learn if you do not understand" is the wisdom.
 
-#### A real example 2
+### A real example 2
 
 ![anki-example](anki-example.png)
 
 After creating the summary above, I think "Dependency Rule" is a very key concept that is worth memorizing, so I create a corresponding flashcard. When reviewing the card, if this feels "easy" to me, I will tap "16d Easy" to snooze the card 16 days later. If I cannot recall the meaning in 10 seconds, then I tap "<10 min Again".
 
-### Conclusion
+## Conclusion
 
 > "The only way to go fast is to go well",  Robert C. Martin
 
