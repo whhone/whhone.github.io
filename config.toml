@@ -4,6 +4,9 @@ baseURL = "https://whhone.com/"
 languageCode = "en-us"
 title = "Wai Hon's Blog"
 
+# https://github.com/Vimux/Mainroad
+theme = "mainroad"
+
 # Google Analytics API key.
 googleAnalytics = "UA-38001261-1"
 
@@ -24,27 +27,50 @@ disqusShortname = "wai-hons-blog"
 [permalinks]
   posts = "/:slug/"
 
-# The ".Site.Params" Variable.
-# See https://gohugo.io/variables/site/#site-variables-list
-[params]
-  author = "Wai Hon Law"
+[Author]
+  name = "Wai Hon Law"
   avatar = "/img/avatar.jpg"
   bio = "Software Engineer at Google, Runner, Reader, Husband, Father."
-  description = "The Personal Blog of Wai Hon Law (whhone)"
-  email = "whhone@gmail.com"
-  favicon = "/ico/favicon.ico"
 
-  # Social Links
-  twitter = "whhone"
-  github = "whhone"
+# The ".Site.Params" Variable.
+# See https://gohugo.io/variables/site/#site-variables-list
+[Params]
+  subtitle = "" # Subtitle of your site. Used in site header
+  description = "The Personal Blog of Wai Hon Law (whhone)" # Site description. Used in meta description
+  copyright = "Wai Hon Law" # Footer copyright holder, otherwise will use site title
+  opengraph = true # Enable OpenGraph if true
+  twitter_cards = true # Enable Twitter Cards if true
+  toc = false # Enable Table of Contents
+  post_meta = ["date", "categories"] # Order of post meta information
+  mainSections = ["posts"] # Specify section pages to show on home page and the "Recent articles" widget
+  dateformat = "2006-01-02" # Change the format of dates
+  authorbox = true # Show authorbox at bottom of pages if true
+  highlightColor = "#4BB"
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+
+[Params.widgets.social]
   facebook = "whhone"
+  twitter = "whhone"
+  # instagram = "whhone"
+  # linkedin = "whhone"
+  # telegram = "whhone"
+  github = "whhone"
+  # gitlab = "whhone"
+  # bitbucket = "whhone"
+  email = "whhone@gmail.com"
 
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 2
+#[[menu.main]]
+#  name = "Home"
+#  url = "/"
+#  weight = 2
 
-[[menu.main]]
-  name = "Feed"
-  url = "http://feeds.feedburner.com/whhone"
-  weight = 10
+#[[menu.main]]
+#  name = "Feed"
+#  url = "http://feeds.feedburner.com/whhone"
+#  weight = 10
