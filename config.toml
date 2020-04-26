@@ -1,6 +1,7 @@
 # Configuration Settings
 # See https://gohugo.io/getting-started/configuration/
-baseURL = "https://whhone.com/"
+# baseURL = "https://whhone.com/"
+baseURL = "https://whhone.netlify.app/"
 languageCode = "en-us"
 title = "Wai Hon's Blog"
 
