@@ -8,6 +8,7 @@ collections:
   - name: "post"
     label: "Post"
     folder: "content/posts"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     create: true
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
