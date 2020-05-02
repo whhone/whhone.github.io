@@ -1,7 +1,7 @@
 # Configuration Settings
 # See https://gohugo.io/getting-started/configuration/
-# baseURL = "https://whhone.com/"
-baseURL = "https://whhone.netlify.app/"
+baseURL = "https://dev.whhone.com/"
+# baseURL = "https://whhone.netlify.app/"
 languageCode = "en-us"
 title = "Wai Hon's Blog"
 
@@ -9,7 +9,7 @@ title = "Wai Hon's Blog"
 theme = "mainroad"
 
 # Google Analytics API key.
-googleAnalytics = "UA-38001261-1"
+# googleAnalytics = "UA-38001261-1"
 
 # Disqus Integration. See https://gohugo.io/content-management/comments/.
 disqusShortname = "wai-hons-blog"
@@ -50,8 +50,8 @@ disqusShortname = "wai-hons-blog"
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
-  list = "left"  # Configure layout for list pages
-  single = false # Configure layout for single pages
+  list = "right"  # Configure layout for list pages
+  single = true # Configure layout for single pages
   # Enable widgets in given order
   widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
 

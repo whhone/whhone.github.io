@@ -2,7 +2,8 @@
 title: "Effective Reading"
 slug: "effective-reading"
 description: "How to read effectively for better understanding, discoverability and retention."
-date: 2020-02-02T11:56:17-08:00
+date: 2020-02-02
+tags: ["personal-development"]
 resources:
   - name: progressive-summarization.jpeg
     src: progressive-summarization.jpeg

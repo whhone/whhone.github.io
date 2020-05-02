@@ -2,7 +2,8 @@
 title: "Productivity System"
 slug: "productivity-system"
 description: "Creating a system to manage myself."
-date: 2020-01-12T13:09:21-08:00
+date: 2020-01-12
+tags: ["personal-development"]
 resources:
   - name: notebook-list.png
     src: notebook-list.png

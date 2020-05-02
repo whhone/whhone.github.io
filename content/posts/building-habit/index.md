@@ -2,7 +2,8 @@
 title: "Building Habits"
 slug: "building-habits"
 description: "How I build habits with keystone habits and habit tracker."
-date: 2020-04-05T09:30:00-07:00
+date: 2020-04-05
+tags: ["personal-development"]
 resources:
   - name: habit-tracker-app.png
     src: habit-tracker-app.png

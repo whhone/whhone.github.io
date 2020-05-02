@@ -2,7 +2,8 @@
 title: "Daily Journal"
 slug: "daily-journal"
 description: "What I write in my daily journal with activity log, most important TODOs and daily highlights."
-date: 2020-03-15T14:57:36-07:00
+date: 2020-03-15
+tags: ["personal-development"]
 resources:
   - name: daily-journal.jpg
     src: daily-journal.jpg
