@@ -1,7 +1,6 @@
 # Configuration Settings
 # See https://gohugo.io/getting-started/configuration/
-baseURL = "https://dev.whhone.com/"
-# baseURL = "https://whhone.netlify.app/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Wai Hon's Blog"
 
@@ -49,6 +48,7 @@ summaryLength = 25
   dateformat = "2006-01-02" # Change the format of dates
   authorbox = true # Show authorbox at bottom of pages if true
   highlightColor = "#4BB"
+  customJS = ["https://identity.netlify.com/v1/netlify-identity-widget.js"]
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
