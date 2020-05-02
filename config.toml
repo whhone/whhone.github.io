@@ -14,6 +14,8 @@ theme = "mainroad"
 # Disqus Integration. See https://gohugo.io/content-management/comments/.
 disqusShortname = "wai-hons-blog"
 
+summaryLength = 25
+
 # Permalinks is the permanent link to a post. It is supposed to be permanent and
 # as simple as possible.
 #
