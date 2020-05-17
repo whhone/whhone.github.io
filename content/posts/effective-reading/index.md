@@ -36,9 +36,16 @@ Understanding decays because we, humans, forget. It is okay to forget. However, 
 
 Summarization is like building a personal index. It allows you to navigate through important concepts and to retrieve context and knowledge swiftly. Without summarization, we will need to spend a huge amount of time reading the material again to find what we need. This is definitely ineffective.
 
-The method I use is Tiago Forte's **Progressive Summarization** [1]. It highlights and formats the readings into layers. The higher layers are compressed to make the notes discoverable and the lower layers provide context.
+The method I use is Tiago Forte's [Progressive Summarization][1]. It highlights and formats the readings into layers. The higher layers are compressed to make the notes discoverable and the lower layers provide context.
 
 {{< figure src="progressive-summarization.jpeg" >}}
+
+- **Layer 0**: the original, full-length source text
+- **Layer 1**: the content that initially bring into note-taking program.
+- **Layer 2**: the first round of summarization, the best parts
+- **Layer 3**: the second round of summarization, among all Layer 2, “the best of the best”
+- **Layer 4**: the summary in my own words.
+- **Layer 5**: add my own personality and creativity and turn them into something else. 
 
 ### A real example 1
 
@@ -54,7 +61,7 @@ I mentioned above that we, humans, forget and it is okay to forget. What if we n
 
 My method is to formulate the knowledge into digital flashcards and review them with spaced repetition. (I review the cards every night when I am holding my sleeping Casper.)
 
-SuperMemo and Anki are among the popular software in this realm. No matter which software to use, read these twenty rules [2] published by SuperMemo about the best practices of formulating knowledge. "Do not learn if you do not understand" is the wisdom.
+SuperMemo and Anki are among the popular software in this realm. No matter which software to use, read these [twenty rules][2] published by SuperMemo about the best practices of formulating knowledge. "Do not learn if you do not understand" is the wisdom.
 
 ### A real example 2
 
@@ -70,5 +77,5 @@ I think this applies to many things, including coding, driving and reading. All 
 
 I am still learning how to make the reading process more effective. If you have any tips, please let me know. :)
 
-- [1] https://praxis.fortelabs.co/progressive-summarization-a-practical-technique-for-designing-discoverable-notes-3459b257d3eb/
-- [2] https://www.supermemo.com/en/archives1990-2015/articles/20rules
+[1]: https://praxis.fortelabs.co/progressive-summarization-a-practical-technique-for-designing-discoverable-notes-3459b257d3eb/
+[2]: https://www.supermemo.com/en/archives1990-2015/articles/20rules

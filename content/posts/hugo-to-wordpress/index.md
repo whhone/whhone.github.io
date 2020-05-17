@@ -4,8 +4,7 @@ slug: "hugo-to-wordpress"
 description: "I have been blogging with Hugo, a static site generator, for 5 months. Recently, I decided to ditch it and migrate to WordPress.Org for a more writer-friendly workflow. I want to spend more time and efforts on writing instead of coding."
 thumbnail: "hugo-to-wordpress/hugo-to-wp.png"
 date: 2020-04-26
-tags:
-  - "blogging"
+tags: ["writing"]
 ---
 
 I have been blogging with [Hugo](https://gohugo.io/), a static site generator, for 5 months. Recently, I decided to ditch it and migrate to [WordPress.Org](https://wordpress.org/) for a more writer-friendly workflow. I want to spend more time and efforts on writing instead of coding.
@@ -57,7 +56,7 @@ This is an amicable parting! I have to say that Hugo is an awesome static site g
 
 However, Hugo is not perfect and I struggled with it. Here are some complaints:
 
-1. **Markdown is limited.** e.g., create a link that opens in a new tab (<a> with target="_blank") is not straight-forward and not standardized by the Markdown spec.
+1. **Markdown is limited.** e.g., create a link that opens in a new tab (\<a\> with target="_blank") is not straight-forward and not standardized by the Markdown spec.
 2. **Hugo does not have a good plugin system.** All features / plugins are coupled to the theme. If the theme does not provide the functionality I need, I am going to suffer, write my own, or fork the theme.
 3. **Cannot write anytime, anywhere.** When I find a typo on my phone, I need to correct it right away.
 

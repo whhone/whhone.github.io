@@ -22,13 +22,13 @@ I was the first kind and now the second kind. So, what made the difference? I wo
 
 Don't get me wrong. I am not saying tools are not important. Both tools and methodologies are important. It is just easier to acquire tools than methodologies. One can buy a grand piano in one day but it takes years of practice to be a great pianist.
 
-Also, I don't know what the best methodology is, whether it is David Allen's Getting Things Done (GTD) [1], Ryder Carroll's Bullet Journal [2], or your own method. The answer is probably different for different people. 
+Also, I don't know what the best methodology is, whether it is [David Allen's Getting Things Done (GTD)][1], [Ryder Carroll's Bullet Journal][2], or your own method. The answer is probably different for different people. 
 
 For my own system, it is influenced by GTD but with some modifications. I sticked with the 5 key steps but replaced the Tickler system with Evernote Reminder.
 
 1. **Capture**: Whenever I have something that might need to follow up, I put them into my inbox. It could be a TODO, a random thought, a link, a screenshot, a photo, a new vocabulary, a web clip, or, of course, unactionable tasks.
 2. **Clarify**: Later, I convert them to actionable tasks, usable references, someday/maybe, or delete them.
-3. **Organize**: I organize those items with Tiago Forte's P.A.R.A. method [3], which divides everything into 4 groups, Projects (short-term), Areas of Responsibility (long-term), Resource (topics interested) and Archived. This is the most practical organizational method I have seen so far.
+3. **Organize**: I organize those items with [Tiago Forte's P.A.R.A. method][3], which divides everything into 4 groups, Projects (short-term), Areas of Responsibility (long-term), Resource (topics interested) and Archived. This is the most practical organizational method I have seen so far.
 4. **Review**: Every Sunday, I review all notes created in the last week and plan for the next week. I reschedule tasks so that I won't be too free or too busy next week. Before a long weekend or holiday, I would pull the someday/maybe items and actualize some.
 5. **Engage**: When I have free time, I open my task list and do the most important tasks. This have become the "keystone habit" to build other habits, like memorizing vocuburaries and meditation. This also embolden me that I can finish bigger projects, like blogging and reading books, because the task list always reminds me.
 
@@ -38,6 +38,6 @@ Lastly, adding two screenshots which might tell more than the words.
 
 {{< figure src="reminder.png" caption="Evernote Reminders" >}}
 
-- [1] https://en.wikipedia.org/wiki/Getting_Things_Done
-- [2] https://bulletjournal.com/
-- [3] https://praxis.fortelabs.co/the-p-a-r-a-method-a-universal-system-for-organizing-digital-information-75a9da8bfb37/
+[1]: https://en.wikipedia.org/wiki/Getting_Things_Done
+[2]: https://bulletjournal.com/
+[3]: https://fortelabs.co/blog/para/

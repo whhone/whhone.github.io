@@ -1,7 +1,7 @@
 ---
 title: "2019 Year-End Reflection"
 slug: "2019-year-end-reflection"
-tags: ['blogging']
+tags: ["writing"]
 description: "2019 is the year of changes to me, in terms of new habits developed and the new responsibility of becoming a father. Here are what I have done."
 date: 2019-12-31
 ---
@@ -11,7 +11,7 @@ Here are what I have done.
 
 **I completed 9 English books.** This number was a shameful ZERO for the 28 years before 2019. (Even when I was a student and being tasked to write book reports, I just paraphrased the introduction and/or some random pages of the books.) Reading have instilled new ideas into myself and also ignited other habits.
 
-**I crammed 2000+ new vocabularies into my head.** Last year, I knew spaced repetition from "Learning How to Learn" [1] and started memorizing vocabularies. Whenever I encounter new vocabularies (mostly from reading), I add them to my Anki collection and review daily. I use "crammed" instead of "learnt" because I still cannot use most of them. This is something I need to fix in 2020.
+**I crammed 2000+ new vocabularies into my head.** Last year, I knew spaced repetition from [Learning How to Learn][1] and started memorizing vocabularies. Whenever I encounter new vocabularies (mostly from reading), I add them to my Anki collection and review daily. I use "crammed" instead of "learnt" because I still cannot use most of them. This is something I need to fix in 2020.
 
 **I meditated.** After reading fews books that recommend meditation unanimously, I started with Headspace. I have to say being mindful has the magic power to change other axises.
 
@@ -21,9 +21,9 @@ Here are what I have done.
 
 **We delivered Casper!** This is marvellous even with the sleepless nights and all other compromises. Taking good care of the little one and my wife is the overarching priority in 2020.
 
-Life is composed of events that are interconnected. If I did not take the "Learning How to Learn", I won't start memorizing vocabularies. If I did not memorize vocabularies, I won't start reading to collect more English vocabularies. If I did not read books like Ray Dialo's Principles [2], I won't start meditation.
+Life is composed of events that are interconnected. If I did not take the "Learning How to Learn", I won't start memorizing vocabularies. If I did not memorize vocabularies, I won't start reading to collect more English vocabularies. If I did not read books like [Ray Dialo's Principles][2], I won't start meditation.
 
 As a new year revolution, I am going to start writing (yes, this blog), on the thoughts, learning methods and engineering. Let's see what chain reactions will happen when I look back at the end of 2020.
 
-- [1] https://www.coursera.org/learn/learning-how-to-learn
-- [2] https://www.goodreads.com/book/show/34536488
+[1]: https://www.coursera.org/learn/learning-how-to-learn
+[2]: https://www.goodreads.com/book/show/34536488

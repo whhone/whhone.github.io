@@ -11,7 +11,7 @@ theme = "mainroad"
 # googleAnalytics = "UA-38001261-1"
 
 # Disqus Integration. See https://gohugo.io/content-management/comments/.
-disqusShortname = "wai-hons-blog"
+# disqusShortname = "wai-hons-blog"
 
 summaryLength = 25
 
@@ -28,6 +28,7 @@ summaryLength = 25
 #   publishing the post.
 [permalinks]
   posts = "/:slug/"
+  # today-i-learned = "/til/:slug/"
 
 [Author]
   name = "Wai Hon Law"
@@ -46,7 +47,7 @@ summaryLength = 25
   post_meta = ["date", "categories"] # Order of post meta information
   mainSections = ["posts"] # Specify section pages to show on home page and the "Recent articles" widget
   dateformat = "2006-01-02" # Change the format of dates
-  authorbox = true # Show authorbox at bottom of pages if true
+  authorbox = false # Show authorbox at bottom of pages if true
   highlightColor = "#4BB"
   customJS = ["https://identity.netlify.com/v1/netlify-identity-widget.js"]
 
@@ -58,19 +59,24 @@ summaryLength = 25
   widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
 
 [Params.widgets.social]
-  facebook = "whhone"
+  # facebook = "whhone"
   twitter = "whhone"
   # instagram = "whhone"
   # linkedin = "whhone"
   # telegram = "whhone"
-  github = "whhone"
+  # github = "whhone"
   # gitlab = "whhone"
   # bitbucket = "whhone"
   email = "whhone@gmail.com"
 
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 2
+
 #[[menu.main]]
-#  name = "Home"
-#  url = "/"
+#  name = "Today I Learned"
+#  url = "/tils"
 #  weight = 2
 
 #[[menu.main]]
