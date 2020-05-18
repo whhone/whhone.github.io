@@ -9,3 +9,9 @@ hugo server -D
 ```
 hugo new --kind post posts/the-title
 ```
+
+# Update Theme
+
+```
+git submodule update
+```
