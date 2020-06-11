@@ -1,3 +1,9 @@
+# Setup
+
+```
+git submodule update
+```
+
 # Development Server
 
 ```
