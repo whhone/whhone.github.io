@@ -4,7 +4,7 @@ slug: "i3-switching-windows"
 description: "i3 Switching Windows"
 # thumbnail: "i3-switching-windows/thumbnail.png"
 date: 2020-06-21
-tags: []
+tags: [linux]
 draft: false
 ---
 

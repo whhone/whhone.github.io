@@ -56,7 +56,14 @@ summaryLength = 25
   list = "right"  # Configure layout for list pages
   single = true # Configure layout for single pages
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
+  widgets = [
+    # "search", 
+    "recent", 
+    "categories",
+    "taglist", 
+    "social", 
+    "languages",
+  ]
 
 [Params.widgets.social]
   # facebook = "whhone"
