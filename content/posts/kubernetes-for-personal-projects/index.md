@@ -3,6 +3,7 @@ title: "Kubernetes for Personal Projects"
 slug: "kubernetes-for-personal-projects"
 description: "This is about why I was not using Kubernetes personal projects."
 date: 2019-12-29T20:18:22-08:00
+draft: true
 ---
 
 *This is about why I was not using Kubernetes personal projects. If you are reading this post trying to set up Kubernetes, it will disappoint you.*

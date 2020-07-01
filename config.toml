@@ -1,6 +1,6 @@
 # Configuration Settings
 # See https://gohugo.io/getting-started/configuration/
-baseURL = "/"
+baseURL = "https://whhone.com/"
 languageCode = "en-us"
 title = "Wai Hon's Blog"
 
@@ -49,7 +49,8 @@ summaryLength = 25
   dateformat = "2006-01-02" # Change the format of dates
   authorbox = false # Show authorbox at bottom of pages if true
   highlightColor = "#4BB"
-  customJS = ["https://identity.netlify.com/v1/netlify-identity-widget.js"]
+  customCSS = ["css/dark_theme_mainroad.css"]
+  # customJS = ["https://identity.netlify.com/v1/netlify-identity-widget.js"]
 
 [Params.sidebar]
   home = "right" # Configure layout for home page
@@ -62,7 +63,7 @@ summaryLength = 25
     "categories",
     "taglist", 
     "social", 
-    "languages",
+    # "languages",
   ]
 
 [Params.widgets]
@@ -75,7 +76,7 @@ summaryLength = 25
   # instagram = "whhone"
   # linkedin = "whhone"
   # telegram = "whhone"
-  # github = "whhone"
+  github = "whhone"
   # gitlab = "whhone"
   # bitbucket = "whhone"
   email = "whhone@gmail.com"

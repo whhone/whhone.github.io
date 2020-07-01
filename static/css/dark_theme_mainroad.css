@@ -1,0 +1,10 @@
+/* Dark mode with Mainroad theme */
+@media (prefers-color-scheme: dark) {
+    .wrapper, .logo__title, a, h1, h2, h3, h4, h5, h6 {
+        color: white;
+    }
+    
+    .wrapper, div.logo {
+        background: #111;
+    }
+}
