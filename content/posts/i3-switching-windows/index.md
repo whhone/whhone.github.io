@@ -16,7 +16,7 @@ In this post, I am going to talk about how to switch windows on i3. But before t
 
 [`Alt+Tab`](https://en.wikipedia.org/wiki/Alt-Tab) (or `Command+Tab` on Mac) is the most typical way to switch windows. It shows the list of opened windows, then the user presses `Tab` repeatedly to go to the next window, and release all keys to select.
 
-![Alt+Tab](https://whhone.com/wp-content/uploads/2020/06/alt_tab.gif)
+![Alt+Tab](/i3-switching-windows/alt_tab.gif)
 
 These “find”s are distractions. Users need to switch context off from the real task, find the other window, switch context back to the real tasks. These “find”s could happen over a hundred times a day and they become more complex when the number of opened windows goes up.
 
