@@ -48,7 +48,6 @@ Use `timedatectl` to ensure the system clock is accurate:
 The final disk layout from this guide contains two partitions,
 
 | Partition        | Size             | Code                    | Name                 |
-|                  |                  |                         |                      |
 |------------------|------------------|-------------------------|----------------------|
 | Boot (/dev/sda1) | 512.0 MiB        | EF00                    | EFI system partition |
 | Root (/dev/sda2) | Rest of the disk | 8300 (default of gdisk) | Linux filesystem     |
