@@ -8,10 +8,10 @@ title = "Wai Hon's Blog"
 theme = "mainroad"
 
 # Google Analytics API key.
-# googleAnalytics = "UA-38001261-1"
+googleAnalytics = "UA-38001261-1"
 
 # Disqus Integration. See https://gohugo.io/content-management/comments/.
-# disqusShortname = "wai-hons-blog"
+disqusShortname = "wai-hons-blog"
 
 summaryLength = 25
 
@@ -58,11 +58,11 @@ summaryLength = 25
   single = true # Configure layout for single pages
   # Enable widgets in given order
   widgets = [
-    # "search", 
-    "recent", 
+    # "search",
+    "recent",
     "categories",
-    "taglist", 
-    "social", 
+    "taglist",
+    "social",
     # "languages",
   ]
 
@@ -81,10 +81,10 @@ summaryLength = 25
   # bitbucket = "whhone"
   email = "whhone@gmail.com"
 
-#[[menu.main]]
-#  name = "Home"
-#  url = "/"
-#  weight = 2
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 2
 
 #[[menu.main]]
 #  name = "Today I Learned"
