@@ -1,28 +1,21 @@
-#+HUGO_BASE_DIR: ../
-#+HUGO_SECTION: posts
+---
+title: "From Evernote to Org Mode"
+aliases: ["/from-evernote-to-org-mode"]
+description: "From Evernote to Org Mode"
+date: 2020-09-03
+tags: ["linux", "emacs", "privacy", "personal-development"]
+draft: false
+---
 
-* Posts
-
-** DONE From Evernote to Org-Mode :linux:emacs:privacy:personal_development:
-SCHEDULED: <2020-09-03 Thu>
-:PROPERTIES:
-:EXPORT_DATE: 2020-09-03
-:EXPORT_FILE_NAME: from-evernote-to-org-mode
-:EXPORT_HUGO_ALIASES: "/from-evernote-to-org-mode"
-:END:
-:LOGBOOK:
-CLOCK: [2020-09-03 Thu 09:40]--[2020-09-03 Thu 15:55] =>  6:15
-:END:
-
-Since 2017, Evernote has been my [[/productivity-system][productivity system]] for note-taking and task management. It has served me very well and I became a paid user. However, mentioned in the [[/arch-linux-full-disk-encryption/][last post]], I am pursuing more privacy in my digital life and Evernote becomes a loophole.
+Since 2017, Evernote has been my [[{{< ref "/posts/productivity-system" >}}][productivity system]] for note-taking and task management. It has served me very well and I became a paid user. However, mentioned in the [[{{< ref "/posts/arch-linux-full-disk-encryption" >}}][last post]], I am pursuing more privacy in my digital life and Evernote becomes a loophole.
 
 This post talks about the privacy concern, my research on the alternatives, and the switch to Org-Mode.
 
-*** 1. The Privacy Concern of Evernote
+* 1. The Privacy Concern of Evernote
 
 The user data in Evernote is [[https://evernote.com/security][encrypted "during transport" and "at-rest"]]. This sounds secure to readers but actually not enough because Evernote can still see the content. Technically, it is still server-side encryption instead the client-side encryption (a.k.a. end-to-end encryption). The encryption key of the note content is held by the server instead of the client. If the server is hacked, or there is an evil employee, or Evernote needs to comply with legal obligations (i.e., the government asks for user data, and [[https://evernote.com/privacy/transparency-report][it does]]), those notes could be leaked.
 
-*** 2. Researching the Alternatives
+* 2. Researching the Alternatives
 
 I started researching the alternatives which do not compromise privacy. That means end-to-end encryption is required if the data is hosted on a third-party. This requirement actually simplifies my curation because many solutions are ruled out, including the popular Notion and Roam (o:
 
@@ -47,33 +40,33 @@ My final shortlist included [[https://orgmode.org/][*Org-Mode*]], [[https://jopl
 - *Android Usability*: How usable is it on Android?
 - *Synchronization*: How hard is it to synchronize data between Linux and Android?
 
-**** Review: Evernote (24)
+** Review: Evernote (24)
 
 Evernote has a reminder feature for simple task management, which is already enough for me. Since it is a note-taking app, I can add rich context like images or even audio seamlessly. Tusk makes it usabe on Linux and the official Android app is simply awesome. Synchronization works out-of-the-box.
 
 However, it fails on the privacy bit.
 
-**** Review: Org-Mode (26)
+** Review: Org-Mode (26)
 
 Org-Mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system. It is absolutely capable.
 
 However, the learning curve of Org-Mode is steep and even steeper for non-Emacs users. Users are expected to read documentation and practice. Once familiarized with Emacs, its usability on Linux will jump from 0 to 5 (or even infinity). The Android client Orgzly is usable but could be better. Synchronization works with SyncThing.
 
-**** Review: Joplin (22) and Standard Note (24)
+** Review: Joplin (22) and Standard Note (24)
 
 Joplin and Standard Note are both strong note-taking alternatives to Evernote. However, they suck in task management because they simply cannot show all tasks scheduled for today. They both have a decent desktop app written in Electron. Synchronization works natively and usesr can turn on end-to-end encryption for privacy/security.
 
 If task management is not a requirement, both Joplin and Standard Note are very good alternatives.
 
-**** Review: Taskwarrior (21) and TODO.txt (20)
+** Review: Taskwarrior (21) and TODO.txt (20)
 
 Taskwarrior and TODO.txt are both FOSS for task management. However, they both allow only one line per task, which makes adding extra context to the task very hard. Their clients are barely usable to me (or I have not learned enough). Secure synchronization works with a self-hosted server or with SyncThing for Taskwarrior and TODO.txt respectively.
 
-**** Review: TiddlyWiki (?)
+** Review: TiddlyWiki (?)
 
 TiddlyWiki is a "non-linear personal web notebook". It looks fancy but I haven't tried it intensively because Org-Mode seems working for me already at this point. I will leave it as a question mark.
 
-*** 3. Switching to Org-Mode
+* 3. Switching to Org-Mode
 
 After all these explorations, Org-Mode looks promising to me and I started the Org-Mode/Emacs 30-day challenge -- keep using Org-Mode/Emacs for a month. Note that I was still using Evernote during the transition but gradually reducing the dependency on it.
 
@@ -82,4 +75,3 @@ I have now finished the challenge and can claim myself an Org-Mode user. I am ha
 Beyond Org-Mode, I also started seeing the beauty of Emacs and why people use it instead of Vim or other modern editors. Emacs is ostensibly an editor but actually a powerful Lisp platform/runtime, which makes it super extensible and capable. I am now using Emacs even more. For example, I replace Visual Studio Code, my previous editor/git porcelain, with  [[https://magit.vc/][Magit]]. This blog post is written in Emacs with [[https://ox-hugo.scripter.co/][ox-hugo]]. I probably will blog on these topics sometime in the future.
 
 All in all, I am very happy with the privacy gain and the learning from this switch!
-
