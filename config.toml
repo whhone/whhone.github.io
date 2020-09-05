@@ -18,7 +18,7 @@ summaryLength = 25
 [Author]
   name = "Wai Hon Law"
   avatar = "/img/avatar.jpg"
-  bio = "Software Engineer at Google, Runner, Reader, Husband, Father."
+  bio = "Software Engineer, Runner, Reader, Husband, Father."
 
 # The ".Site.Params" Variable.
 # See https://gohugo.io/variables/site/#site-variables-list
