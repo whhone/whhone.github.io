@@ -13,7 +13,11 @@ hugo server -D
 # New Post
 
 ```
-hugo new --kind post posts/the-title
+# Single Page
+hugo new posts/the-title
+
+# Page Bundle
+hugo new --kind posts posts/the-title
 ```
 
 # Update Theme
