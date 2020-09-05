@@ -1,6 +1,6 @@
 ---
 title: "Installing Arch Linux with Full Disk Encryption"
-slug: "arch-linux-full-disk-encryption"
+aliases: ["/arch-linux-full-disk-encryption"]
 date: 2020-07-29
 tags: ['privacy', 'linux']
 ---

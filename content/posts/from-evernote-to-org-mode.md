@@ -2,7 +2,7 @@
 title = "From Evernote to Org-Mode"
 date = 2020-09-03
 publishDate = 2020-09-03T00:00:00-07:00
-slug = "from-evernote-to-org-mode"
+aliases = ["/from-evernote-to-org-mode"]
 tags = ["linux", "emacs", "privacy", "personal-development"]
 draft = false
 +++

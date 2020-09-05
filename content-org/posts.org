@@ -8,7 +8,7 @@ SCHEDULED: <2020-09-03 Thu>
 :PROPERTIES:
 :EXPORT_DATE: 2020-09-03
 :EXPORT_FILE_NAME: from-evernote-to-org-mode
-:EXPORT_HUGO_SLUG: from-evernote-to-org-mode
+:EXPORT_HUGO_ALIASES: "/from-evernote-to-org-mode"
 :END:
 :LOGBOOK:
 CLOCK: [2020-09-03 Thu 09:40]--[2020-09-03 Thu 15:55] =>  6:15
@@ -132,4 +132,3 @@ Before that, I thought Evernote was my ultimate note-taking + TODO app and it di
  | TiddlyWiki        |                  |                         |                        |                              |                       |               |        |                   |       5 |
  | Standard Note     |                  |                         |                        |                              |                       |               |        |                   |       5 |
  | Hugo              |                0 | 0                       | 0                      |                          4.5 |                     0 |             0 |        | 0                 |       5 |
- |                   |                  |                         |                        |                              |                       |               |        |                   |         |

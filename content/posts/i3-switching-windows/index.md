@@ -1,6 +1,6 @@
 ---
 title: "i3 - Switching Windows"
-slug: "i3-switching-windows"
+aliases: ["/i3-switching-windows"]
 description: "i3 Switching Windows"
 # thumbnail: "i3-switching-windows/thumbnail.png"
 date: 2020-06-21
@@ -16,7 +16,7 @@ In this post, I am going to talk about how to switch windows on i3. But before t
 
 [`Alt+Tab`](https://en.wikipedia.org/wiki/Alt-Tab) (or `Command+Tab` on Mac) is the most typical way to switch windows. It shows the list of opened windows, then the user presses `Tab` repeatedly to go to the next window, and release all keys to select.
 
-![Alt+Tab](/i3-switching-windows/alt_tab.gif)
+![Alt+Tab](./alt_tab.gif)
 
 These “find”s are distractions. Users need to switch context off from the real task, find the other window, switch context back to the real tasks. These “find”s could happen over a hundred times a day and they become more complex when the number of opened windows goes up.
 
@@ -36,7 +36,7 @@ When I first met i3, it blew my mind with its alternatives to switch windows. He
 
 The first alternative is [Scratchpad](https://i3wm.org/docs/userguide.html#_scratchpad). It summons the targeted window directly, without finding it from the window list.
 
-![Scratchpad](/i3-switching-windows/i3-scratchpad.gif)
+![Scratchpad](./i3-scratchpad.gif)
 
 In the above screencast, `Super+k` focuses to the editor. `Super+Enter` focuses to the terminal. There is no finding in the whole flow, although I have more than 10 opened windows.
 
@@ -64,7 +64,7 @@ These window properties could find by `xprop`.
 
 The second alternative is moving to an adjacent window. In my opinion, it is more visually-intuitive and predictable than the `Alt+Tab`.
 
-![Move](/i3-switching-windows/i3-move.gif)
+![Move](./i3-move.gif)
 
 
 Moving to an adjacent window is the default mechanism of window switching, for most of the tiling window managers. I am not going to belabor here.
@@ -73,7 +73,7 @@ Moving to an adjacent window is the default mechanism of window switching, for m
 
 The last one in this post is matching. It matches and narrows down the list of windows.
 
-![Match](/i3-switching-windows/i3-match.gif)
+![Match](./i3-match.gif)
 
 
 In the above screencast, Super+g shows the list of all windows and I search for gedit by typing gedit.

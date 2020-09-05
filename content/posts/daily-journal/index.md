@@ -1,6 +1,6 @@
 ---
 title: "Daily Journal"
-slug: "daily-journal"
+aliases: ["/daily-journal"]
 description: "What I write in my daily journal with activity log, most important TODOs and daily highlights."
 date: 2020-03-15
 tags: ["personal-development"]

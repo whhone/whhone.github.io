@@ -1,6 +1,6 @@
 ---
 title: "Effective Reading"
-slug: "effective-reading"
+aliases: ["/effective-reading"]
 description: "How to read effectively for better understanding, discoverability and retention."
 date: 2020-02-02
 tags: ["personal-development"]

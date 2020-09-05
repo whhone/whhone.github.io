@@ -1,6 +1,6 @@
 ---
 title: "Productivity System"
-slug: "productivity-system"
+aliases: ["/productivity-system"]
 description: "Creating a system to manage myself."
 date: 2020-01-12
 tags: ["personal-development"]

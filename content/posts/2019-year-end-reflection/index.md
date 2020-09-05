@@ -1,6 +1,6 @@
 ---
 title: "2019 Year-End Reflection"
-slug: "2019-year-end-reflection"
+aliases: ["/2019-year-end-reflection"]
 tags: ["writing"]
 description: "2019 is the year of changes to me, in terms of new habits developed and the new responsibility of becoming a father. Here are what I have done."
 date: 2019-12-31

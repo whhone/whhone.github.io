@@ -1,6 +1,6 @@
 ---
 title: "From Hugo to WordPress"
-slug: "hugo-to-wordpress"
+aliases: ["/hugo-to-wordpress"]
 description: "I have been blogging with Hugo, a static site generator, for 5 months. Recently, I decided to ditch it and migrate to WordPress.Org for a more writer-friendly workflow. I want to spend more time and efforts on writing instead of coding."
 # thumbnail: "hugo-to-wordpress/thumbnail.png"
 date: 2020-04-26

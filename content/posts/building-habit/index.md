@@ -1,6 +1,6 @@
 ---
 title: "Building Habits"
-slug: "building-habits"
+aliases: ["/building-habits"]
 description: "How I build habits with keystone habits and habit tracker."
 date: 2020-04-05
 tags: ["personal-development"]

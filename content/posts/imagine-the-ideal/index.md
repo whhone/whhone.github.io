@@ -1,10 +1,8 @@
 ---
 title: "Imagine the Ideal"
-slug: "imagine-the-ideal"
+aliases: ["/imagine-the-ideal"]
 description: "Imagine the Ideal"
-# thumbnail: "imagine-the-ideal/thumbnail.png"
 date: 2020-05-17
-tags: []
 draft: false
 ---
 
