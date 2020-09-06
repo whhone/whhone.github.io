@@ -1,5 +1,5 @@
 ---
-title: "From Evernote to Org Mode"
+title: "From Evernote to Org-Mode"
 aliases: ["/from-evernote-to-org-mode"]
 description: "From Evernote to Org Mode"
 date: 2020-09-03
@@ -7,7 +7,7 @@ tags: ["linux", "emacs", "privacy", "personal-development"]
 draft: false
 ---
 
-Since 2017, Evernote has been my [[{{< ref "/posts/productivity-system" >}}][productivity system]] for note-taking and task management. It has served me very well and I became a paid user. However, mentioned in the [[{{< ref "/posts/arch-linux-full-disk-encryption" >}}][last post]], I am pursuing more privacy in my digital life and Evernote becomes a loophole.
+Since 2017, Evernote has been my [[{{< ref "/posts/productivity-system" >}}][productivity system]] for note-taking and task management. I thought it was my ultimate system to stick with. It has served me so well and I have even became a paid user. However, mentioned in the [[{{< ref "/posts/arch-linux-full-disk-encryption" >}}][last post]], I am pursuing more privacy in my digital life and Evernote becomes a loophole.
 
 This post talks about the privacy concern, my research on the alternatives, and the switch to Org-Mode.
 
@@ -19,7 +19,15 @@ The user data in Evernote is [[https://evernote.com/security][encrypted "during 
 
 I started researching the alternatives which do not compromise privacy. That means end-to-end encryption is required if the data is hosted on a third-party. This requirement actually simplifies my curation because many solutions are ruled out, including the popular Notion and Roam (o:
 
-My final shortlist included [[https://orgmode.org/][*Org-Mode*]], [[https://joplinapp.org/][*Joplin*]], [[https://standardnotes.org/][*Standard Note*]], [[https://taskwarrior.org/][*Taskwarrior*]], [[http://todotxt.org/][*TODO.txt*]], and [[https://tiddlywiki.com/][*TiddlyWiki*]]. I gave each of them a try, reviewed and scored them with my requirements.
+My final shortlist included [[https://orgmode.org/][*Org-Mode*]], [[https://joplinapp.org/][*Joplin*]], [[https://standardnotes.org/][*Standard Note*]], [[https://taskwarrior.org/][*Taskwarrior*]], [[http://todotxt.org/][*TODO.txt*]], and [[https://tiddlywiki.com/][*TiddlyWiki*]]. I gave each of them a try, reviewed and scored them with my requirements below:
+
+1. *Privacy* Can I seclude my data?
+2. *Basic Task Management*: Can I set a date for a task and then view all tasks for today?
+3. *Task Context*: Can I add references (instruction, link) to the task?
+4. *Linux Usability*: How usable is it on Linux?
+5. *Android Usability*: How usable is it on Android?
+6. *Synchronization*: How hard is it to synchronize data between Linux and Android?
+
 
 |                     | *Evernote* | *Org-Mode* | *Joplin* | *Standard Note* | *Taskwarrior* | *TODO.txt* | *TiddlyWiki* |
 |---------------------+------------+------------+----------+-----------------+---------------+------------+--------------|
@@ -32,13 +40,7 @@ My final shortlist included [[https://orgmode.org/][*Org-Mode*]], [[https://jopl
 |---------------------+------------+------------+----------+-----------------+---------------+------------+--------------|
 | *Total*             |         24 |         26 |       22 |              24 |            21 |         20 | ?            |
 
-*Requirements:*
-- *Privacy*: Can I seclude my data?
-- *Basic Task Management*: Can I set a date for a task and then view all tasks for today?
-- *Task Context*: Can I add references (instruction, link) to the task?
-- *Linux Usability*: How usable is it on Linux?
-- *Android Usability*: How usable is it on Android?
-- *Synchronization*: How hard is it to synchronize data between Linux and Android?
+
 
 ** Review: Evernote (24)
 
@@ -72,6 +74,8 @@ After all these explorations, Org-Mode looks promising to me and I started the O
 
 I have now finished the challenge and can claim myself an Org-Mode user. I am happy with Org-Mode and the new workflow. Since the org files are in plain text, I manage my notes with Git, review, and polish all the changes before committing it. It helps to improve the quality of my notes!
 
-Beyond Org-Mode, I also started seeing the beauty of Emacs and why people use it instead of Vim or other modern editors. Emacs is ostensibly an editor but actually a powerful Lisp platform/runtime, which makes it super extensible and capable. I am now using Emacs even more. For example, I replace Visual Studio Code, my previous editor/git porcelain, with  [[https://magit.vc/][Magit]]. This blog post is written in Emacs with [[https://ox-hugo.scripter.co/][ox-hugo]]. I probably will blog on these topics sometime in the future.
+Beyond Org-Mode, I also started seeing the beauty of Emacs and why people use it instead of Vim or other modern editors. Emacs is ostensibly an editor but actually a powerful Lisp platform/runtime, which makes it super extensible and capable. Users can customize Emacs and make it their own systems for their own purposes.
+
+I am now using Emacs even more. For example, I replace Visual Studio Code, my previous editor/git porcelain, with  [[https://magit.vc/][Magit]]. This blog post is written in Emacs with [[https://ox-hugo.scripter.co/][ox-hugo]]. I probably will blog on these topics sometime in the future.
 
 All in all, I am very happy with the privacy gain and the learning from this switch!
