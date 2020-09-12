@@ -1,10 +1,9 @@
 ---
-title: "i3 - Switching Windows"
+title: "Switching Windows in i3 Window Manager"
 aliases: ["/i3-switching-windows"]
 description: "i3 Switching Windows"
-# thumbnail: "i3-switching-windows/thumbnail.png"
 date: 2020-06-21
-tags: [linux]
+tags: [i3wm]
 draft: false
 ---
 

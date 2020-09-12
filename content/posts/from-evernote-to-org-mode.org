@@ -3,7 +3,7 @@ title: "From Evernote to Org-Mode"
 aliases: ["/from-evernote-to-org-mode"]
 description: "From Evernote to Org Mode"
 date: 2020-09-03
-tags: ["linux", "emacs", "privacy", "personal-development"]
+tags: ["emacs", "privacy", "personal-development"]
 draft: false
 ---
 
