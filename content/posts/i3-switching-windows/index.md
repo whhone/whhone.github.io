@@ -11,7 +11,7 @@ draft: false
 
 In this post, I am going to talk about how to switch windows on i3. But before that, let’s take a look at something we all know — `Alt+Tab`.
 
-## Alt+Tab
+## The Ergonomics Problem with Alt+Tab
 
 [`Alt+Tab`](https://en.wikipedia.org/wiki/Alt-Tab) (or `Command+Tab` on Mac) is the most typical way to switch windows. It shows the list of opened windows, then the user presses `Tab` repeatedly to go to the next window, and release all keys to select.
 
@@ -59,7 +59,7 @@ bindsym $mod+k [class="code-oss"] scratchpad show
 
 These window properties could find by `xprop`.
 
-## Move – Switch by What I See
+## 2. Move – Switch by What I See
 
 The second alternative is moving to an adjacent window. In my opinion, it is more visually-intuitive and predictable than the `Alt+Tab`.
 
