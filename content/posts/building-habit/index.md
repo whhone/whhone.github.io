@@ -50,10 +50,8 @@ That is how I build habits now.
 
 Habit is an interesting topic and it has gotten traction in recent years, thanks to two best seller books.
 
-- [The Power of Habit, by Charles Duhigg, 2017](https://amzn.to/2wUsd65)
-- [Atomic Habit, by James Clear, 2018](https://amzn.to/3dTW92L)
-
-[![the-power-of-habit](//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B007EJSMC8&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=whhone-20)](https://amzn.to/2wUsd65) [![atomic-habit](//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=US&ASIN=B07RFSSYBH&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=whhone-20)](https://amzn.to/3dTW92L)
+- [The Power of Habit, by Charles Duhigg, 2017](https://www.goodreads.com/book/show/12609433)
+- [Atomic Habit, by James Clear, 2018](https://www.goodreads.com/book/show/40121378)
 
 I learnt the habit concepts from these two books. "The Power of Habit" tells more stories behind habits while "Atomic Habit" gives more practical advices. Both are good books but if you want to pick only one, then "Atomic Habit" is the way to go!
 
