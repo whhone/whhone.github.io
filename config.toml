@@ -71,12 +71,7 @@ summaryLength = 25
   url = "/"
   weight = 2
 
-#[[menu.main]]
-#  name = "Today I Learned"
-#  url = "/tils"
-#  weight = 2
-
-#[[menu.main]]
-#  name = "Feed"
-#  url = "http://feeds.feedburner.com/whhone"
-#  weight = 10
+[[menu.main]]
+  name = "rss"
+  url = "/index.xml"
+  weight = 10
