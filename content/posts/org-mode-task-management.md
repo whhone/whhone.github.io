@@ -123,6 +123,9 @@ The secret of having a system that works in the long-term is regular maintenance
 Finally, here is the configuration for the above workflow.
 
 ```lisp
+;; Emacs Easy Customization ("M-x customize") syntax is used.
+;; If you prefer using .el files directly, set it with "setq".
+
 ;; TODO keywords.
 '(org-todo-keywords
   '((sequence "TODO(t)" "NEXT(n)" "PROG(p)" "INTR(i)" "DONE(d)")))
@@ -136,7 +139,7 @@ Finally, here is the configuration for the above workflow.
 ;; Hide the deadline prewarning prior to scheduled date.
 '(org-agenda-skip-deadline-prewarning-if-scheduled 'pre-scheduled)
 
-;; Customized view for the daily workflow.
+;; Customized view for the daily workflow. (Command: "C-c a n")
 '(org-agenda-custom-commands
   '(("n" "Agenda / INTR / PROG / NEXT"
      ((agenda "" nil)
