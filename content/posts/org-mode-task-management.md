@@ -1,5 +1,5 @@
 ---
-title: "Org-Mode Workflow: Task Management"
+title: "An Org-Mode Workflow for Task Management"
 date: 2020-10-31
 tags: ["emacs", "personal-development"]
 draft: false
@@ -135,6 +135,10 @@ Finally, here is the configuration for the above workflow.
 
 ;; Hide tasks that are scheduled in the future.
 '(org-agenda-todo-ignore-scheduled 'future)
+
+;; Use "second" instead of "day" for time comparison.
+;; It hides tasks with a scheduled time like "<2020-11-15 Sun 11:30>"
+'(org-agenda-todo-ignore-time-comparison-use-seconds t)
 
 ;; Hide the deadline prewarning prior to scheduled date.
 '(org-agenda-skip-deadline-prewarning-if-scheduled 'pre-scheduled)
