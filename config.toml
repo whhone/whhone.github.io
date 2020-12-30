@@ -43,7 +43,7 @@ summaryLength = 25
   single = true # Configure layout for single pages
   # Enable widgets in given order
   widgets = [
-    # "search",
+    "search",
     "recent",
     "categories",
     "taglist",
