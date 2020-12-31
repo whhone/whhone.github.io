@@ -58,7 +58,7 @@ TODO Keyword | Definition
 
 This diagram illustrates the transition of those states.
 
-```
+```plain
                                  +------+
                                  | INTR |
                                  +------+

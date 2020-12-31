@@ -1,7 +1,6 @@
 ---
-title: "About Me"
+title: "About"
 date: 2020-12-25
-tags: []
 draft: false
 ---
 

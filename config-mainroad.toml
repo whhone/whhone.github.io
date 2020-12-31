@@ -5,7 +5,7 @@ languageCode = "en-us"
 title = "Wai Hon's Blog"
 
 # https://github.com/Vimux/Mainroad
-theme = "mainroad"
+theme = "hugo-PaperMod"
 
 # Google Analytics API key.
 googleAnalytics = "UA-38001261-1"
@@ -37,6 +37,17 @@ summaryLength = 25
   customCSS = ["css/dark_theme_mainroad.css"]
   # customJS = ["https://identity.netlify.com/v1/netlify-identity-widget.js"]
 
+  # Papermod
+  ShowShareButtons = true
+  ShowReadingTime = false
+
+[Params.HomeInfoParams]
+  Title = ''
+  Content = ''
+
+[Params.socialIcons]
+  
+
 [Params.sidebar]
   home = "right" # Configure layout for home page
   list = "right"  # Configure layout for list pages
@@ -66,9 +77,12 @@ summaryLength = 25
   # bitbucket = "whhone"
   email = "whhone@gmail.com"
 
+[Outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [[menu.main]]
-  name = "Home"
-  url = "/"
+  name = "Archive"
+  url = "/archive"
   weight = 1
 
 [[menu.main]]
@@ -77,6 +91,16 @@ summaryLength = 25
   weight = 2
 
 [[menu.main]]
-  name = "rss"
+  name = "Tags"
+  url = "/tags"
+  weight = 3
+
+[[menu.main]]
+  name = "Search"
+  url = "/search"
+  weight = 4
+
+[[menu.main]]
+  name = "RSS"
   url = "/index.xml"
   weight = 10
