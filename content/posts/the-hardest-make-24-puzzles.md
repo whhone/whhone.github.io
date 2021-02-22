@@ -1,6 +1,5 @@
 ---
 title: "The Hardest Make 24 Puzzles"
-description: "The Hardest Make 24 Puzzles"
 date: 2020-12-25
 tags: ["math"]
 draft: false
