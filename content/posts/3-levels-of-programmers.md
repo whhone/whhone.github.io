@@ -5,11 +5,11 @@ date: 2021-02-27
 draft: false
 ---
 
-Codes can reflect the level of programmers. This post categorizes programmers into 3 levels by their programming styles.
+This post categorizes programmers into 3 levels by their abilities to read and write in these 3 programming styles.
 
 ## Level 1: Newbie Programmers
 
-Programmers at this level use the basic taught from "Introduction to XXX Programming". They use for/while loop for all repeated logic. For exmaple, a level 1 programmer code like this.
+Programmers at this level can read and write the basic taught in "Introduction to XXX Programming". They use indexed for loop or while loop for all repeated logic as these are the only options for them. Programmers at this level can read and write this code.
 
 ```dart
 int sumOddValuesLevel1(List<int> list) {
@@ -23,13 +23,13 @@ int sumOddValuesLevel1(List<int> list) {
 }
 ```
 
-This code is long and wearying to read. It is full of low-level details and mutable variables and tends to contain bugs (e.g., the above for loop should use `<` instead of `<=`).
+This code is long and wearying to read. It has more low-level details and mutable variables. It tends to contain bugs (e.g., the above for loop should use `<` instead of `<=`).
 
 They are mostly fresh grads or junior programmers. Most of them will go to the next level with more industrial experience.
 
 ## Level 2: Ordinary Programmers
 
-Programmers at this level use the common patterns learned from experiences, like peer code review or reading existing codes. For example, after reading `.where` and for-in loop repeatedly in the codebase, a level 2 programmer can write this code.
+Programmers at this level can read and write the common patterns learned from experiences, like peer code review or reading existing codes. For example, after reading `.where` and for-in loop repeatedly in the codebase, level 2 programmers can read and write this code with ease *(they still have the option to use the indexed for loop whenever they think it works better)*.
 
 ```dart
 int sumOddValuesLevel2(List<int> list) {
@@ -43,15 +43,15 @@ int sumOddValuesLevel2(List<int> list) {
 }
 ```
 
-This code is better than level 1. For example, it has fewer low-level details and mutable variables. From my experience, this is the norm of the industrial standard.
+This code is better than `sumOddValuesLevel1`. It has fewer low-level details and mutable variables. From my experience, this is the norm of the industrial standard.
 
 Most programmers will reach this level but will likely stop here.
 
 ## Level 3: Great Programmers
 
-Programmers at this level know and can write the cleanest code and use the best patterns, even if they are less common in the codebase they are working on. In addition, they make these good patterns common.
+Programmers at this level know the options, can write the cleanest code, and use the best possible patterns, even if they are less common in the their codebases. In addition, they make these good patterns common.
 
-They learn actively, beyond what they are seeing from peers' works. They learn the details of the programming languages to produce the best codes. A level 3 programmer can write this code.
+They learn actively, beyond what they are seeing from peers' works. They learn each details of their programming languages. For example, even the high order functions like `fold` and `reduce` are not common in their codebase, level 3 programmers can still read and write this code with ease *(they still have the option to use the for-in loop above whenever they think it works better)*.
 
 ```dart
 int sumOddValuesLevel3(List<int> list) =>
@@ -68,14 +68,16 @@ The answer is both yes and no.
 
 * For lower-level programmers, higher-level codes are harder to read because they are not familiar with the patterns. They avoid writing high-level codes or might even argue those codes are bad and less readable. As a metaphor, literature is hard to read for lower-level book readers.
 
-* For higher-level programmers, higher-level codes are more readable because they are more abstract with fewer details. They can still read lower-level codes (and faster than lower-level programmers) but they would avoid them because of the redundant details and possible bugs. As a metaphor, a higher-level book writer can express complex ideas accurately in concise sentences, with less common vocabularies/concepts. They are more readable to higher-level readers, who already know those vocabularies/concepts well.
+* For higher-level programmers, higher-level codes could be more readable because they are more abstract with fewer details, and give explicit intentions. They can still read lower-level codes (and probably faster than lower-level programmers) but they might not like them because of the redundant details and possible bugs. As a metaphor, a higher-level book writer can express complex ideas accurately in concise sentences, with less common vocabularies/concepts. They are more readable to higher-level readers, who already know those vocabularies/concepts well.
 
 ## Conclusion
 
-The low-level and high-level idea is not limited to programming style. It also applies to design patterns, architectures, programming paradigms, and even transcending engineering.
+Higher-level programmers have the ability to read higher-level codes and the option to write higher-level codes. Whether or not to use higher-level codes involves factors like performance impacts in critical paths, programming languages, personal preferences, team cultures, and so on.
+
+Also, the low-level and high-level programmer idea is not limited to programming style. It also applies to the ability to understand and apply design patterns, architectures, programming paradigms, and even transcending the engineering field.
 
 To go higher-level,
-* Passive learning is important. It is the way to learn something we might haven't seen.
+* Active learning helps. It is the way to learn something we might haven't seen.
 * Great peers are great. They bring higher-level patterns and codes to the team and teach the peers.
 
 I hope myself and my peers go to a higher level and learn from each other :)
