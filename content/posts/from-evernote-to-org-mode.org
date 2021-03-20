@@ -1,11 +1,9 @@
----
-title: "From Evernote to Org-Mode"
-aliases: ["/from-evernote-to-org-mode"]
-description: "From Evernote to Org Mode"
-date: 2020-09-03
-tags: ["emacs", "privacy", "personal-development"]
-draft: false
----
++++
+title = "From Evernote to Org-Mode"
+date = 2020-09-03
+tags = ["emacs", "privacy", "personal-development"]
+aliases = ["/from-evernote-to-org-mode"]
++++
 
 Since 2017, Evernote has been my [[{{< ref "/posts/productivity-system" >}}][productivity system]] for note-taking and task management. I thought it was my ultimate system to stick with. It has served me so well and I have even became a paid user. However, mentioned in the [[{{< ref "/posts/arch-linux-full-disk-encryption" >}}][last post]], I am pursuing more privacy in my digital life and Evernote becomes a loophole.
 

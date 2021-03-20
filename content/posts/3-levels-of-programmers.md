@@ -1,9 +1,9 @@
----
-title: "3 Levels of Programmers"
-tags: ["software-engineering"]
-date: 2021-02-27
-draft: false
----
++++
+title = "3 Levels of Programmers"
+tags = ["software-engineering"]
+date = 2021-02-27
+draft = false
++++
 
 This post categorizes programmers into 3 levels by their abilities to read and write in these 3 programming styles.
 

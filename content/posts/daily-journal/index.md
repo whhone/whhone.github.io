@@ -1,17 +1,19 @@
----
-title: "Daily Journal"
-aliases: ["/daily-journal"]
-description: "What I write in my daily journal with activity log, most important TODOs and daily highlights."
-date: 2020-03-15
-tags: ["personal-development"]
-resources:
-  - name: daily-journal.jpg
-    src: daily-journal.jpg
-  - name: deep-work-hours.png
-    src: deep-work-hours.png
-  - name: most-important-todos.jpg
-    src: most-important-todos.jpg
----
++++
+title = "Daily Journal"
+aliases = ["/daily-journal"]
+description = "What I write in my daily journal with activity log, most important TODOs and daily highlights."
+date = 2020-03-15
+tags = ["personal-development"]
+[[resources]]
+  name = "daily-journal.jpg"
+  src = "daily-journal.jpg"
+[[resources]]
+  name = "deep-work-hours.png"
+  src = "deep-work-hours.png"
+[[resources]]
+  name = "most-important-todos.jpg"
+  src = "most-important-todos.jpg"
++++
 
 In the previous post [2019 Year-End Reflection]({{< relref "posts/2019-year-end-reflection" >}}), I wrote:
 

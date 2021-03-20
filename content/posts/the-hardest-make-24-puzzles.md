@@ -1,9 +1,8 @@
----
-title: "The Hardest Make 24 Puzzles"
-date: 2020-12-25
-tags: ["math"]
-draft: false
----
++++
+title = "The Hardest Make 24 Puzzles"
+date = 2020-12-25
+tags = ["math"]
++++
 
 [Make 24](https://en.wikipedia.org/wiki/24_Game) is a traditional math game with simple rule -- given 4 numbers, you are asked to make 24 with addition `+`, subtraction `-`, multiplication `*` and division `/`. Each number should be used once and only once.
 

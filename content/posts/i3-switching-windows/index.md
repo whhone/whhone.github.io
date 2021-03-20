@@ -1,11 +1,9 @@
----
-title: "Switching Windows in i3 Window Manager"
-aliases: ["/i3-switching-windows"]
-description: "i3 Switching Windows"
-date: 2020-06-21
-tags: [i3wm]
-draft: false
----
++++
+title = "Switching Windows in i3 Window Manager"
+date = 2020-06-21
+tags = ["i3wm"]
+aliases = ["/i3-switching-windows"]
++++
 
 3 years ago, I switched from Mac OS back to Linux. The main reason was [i3wm](https://i3wm.org/) — a tiling window manager for Linux — and its way to switch between windows.
 

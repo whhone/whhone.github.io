@@ -1,17 +1,19 @@
----
-title: "Effective Reading"
-aliases: ["/effective-reading"]
-description: "How to read effectively for better understanding, discoverability and retention."
-date: 2020-02-02
-tags: ["personal-development"]
-resources:
-  - name: progressive-summarization.jpeg
-    src: progressive-summarization.jpeg
-  - name: progressive-summarization-example.png
-    src: progressive-summarization-example.png
-  - name: anki-example.png
-    src: anki-example.png
----
++++
+title = "Effective Reading"
+aliases = ["/effective-reading"]
+date = 2020-02-02
+tags = ["personal-development"]
+[[resources]]
+  name = "progressive-summarization.jpeg"
+  src = "progressive-summarization.jpeg"
+[[resources]]
+  name = "progressive-summarization-example.png"
+  src = "progressive-summarization-example.png"
+[[resources]]
+  name = "anki-example.png"
+  src = "anki-example.png"
++++
+
 It is probably easier to explain what ineffective reading is first. 
 
 If you are "seeing" the words without processing, no matter how many words you "see" per minute, it is ineffective. If you cannot recall or refer to the key concepts of an inspiring book you have read in the past, no matter how many books you have read, it is ineffective. If you cannot implement what you read and make some differences in real life, no matter how many books you are aiming to read in a year, it is ineffective.

@@ -1,15 +1,17 @@
----
-title: "Productivity System"
-aliases: ["/productivity-system"]
-description: "Creating a system to manage myself."
-date: 2020-01-12
-tags: ["personal-development"]
-resources:
-  - name: notebook-list.png
-    src: notebook-list.png
-  - name: reminder.png
-    src: reminder.png
----
++++
+title = "Productivity System"
+aliases = ["/productivity-system"]
+description = "Creating a system to manage myself."
+date = 2020-01-12
+tags = ["personal-development"]
+[[resources]]
+  name = "notebook-list.png"
+  src = "notebook-list.png"
+[[resources]]
+  name = "reminder.png"
+  src = "reminder.png"
++++
+
 In this era, there are "productive people" who use "productivity systems" to manage day-to-day chores, TODOs, notes and so on. These productivity systems are usually note taking apps (Apple Notes, Evernote, Google Keep, OneNote),  task manager apps (Todoist, Wunderlist, TickTick), paper notebooks or the combination of them.
 
 These "productive people" could be divided into two kinds.

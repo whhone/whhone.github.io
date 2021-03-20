@@ -1,11 +1,10 @@
----
-title: "From Hugo to WordPress"
-aliases: ["/hugo-to-wordpress"]
-description: "I have been blogging with Hugo, a static site generator, for 5 months. Recently, I decided to ditch it and migrate to WordPress.Org for a more writer-friendly workflow. I want to spend more time and efforts on writing instead of coding."
-# thumbnail: "hugo-to-wordpress/thumbnail.png"
-date: 2020-04-26
-tags: ["writing"]
----
++++
+title = "From Hugo to WordPress"
+date = 2020-04-26
+tags = ["writing"]
+description = "I have been blogging with Hugo, a static site generator, for 5 months. Recently, I decided to ditch it and migrate to WordPress.Org for a more writer-friendly workflow. I want to spend more time and efforts on writing instead of coding."
+aliases = ["/hugo-to-wordpress"]
++++
 
 *(Update 2020-10: I am going back to Hugo and writing blog post with Emacs/easy-hugo.)*
 

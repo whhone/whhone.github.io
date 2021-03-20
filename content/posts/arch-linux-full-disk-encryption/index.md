@@ -1,9 +1,9 @@
----
-title: "Installing Arch Linux with Full Disk Encryption"
-aliases: ["/arch-linux-full-disk-encryption"]
-date: 2020-07-29
-tags: ['privacy', 'arch-linux']
----
++++
+title = "Installing Arch Linux with Full Disk Encryption"
+date = 2020-07-29
+tags = ["privacy", "arch-linux"]
+aliases = ["/arch-linux-full-disk-encryption"]
++++
 
 I recently re-installed my Arch Linux with [full disk encryption (FDE)](https://en.wikipedia.org/wiki/Disk_encryption), as one of the first steps, to bring [privacy](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters) into my life. This guide documents the installation process in a step-by-step manner. I hope this can help people who also want to practice privacy.
 

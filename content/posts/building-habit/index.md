@@ -1,13 +1,12 @@
----
-title: "Building Habits"
-aliases: ["/building-habits"]
-description: "How I build habits with keystone habits and habit tracker."
-date: 2020-04-05
-tags: ["personal-development"]
-resources:
-  - name: habit-tracker-app.png
-    src: habit-tracker-app.png
----
++++
+title = "Building Habits"
+date = 2020-04-05
+tags = ["personal-development"]
+aliases = ["/building-habits"]
+[[resources]]
+  name = "habit-tracker-app.png"
+  src = "habit-tracker-app.png"
++++
 
 The recent shelter-in-place / stay-at-home order has dramatically changed our routines. I don't need to commute to office so I do not listen to podcasts. I don't have morning coffee since I have no access to the mirco-kitchen in the office. I walk less as I stay at home all day. I started doing daily push up because it is less awkward to do at home, compared to the office. I spend more time with Casper because he is just nearby. Even on my Strava feed, some friends seem to have disappeared while some friends start showing up more days.
 

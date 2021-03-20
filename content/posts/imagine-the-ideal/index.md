@@ -1,10 +1,8 @@
----
-title: "Imagine the Ideal"
-aliases: ["/imagine-the-ideal"]
-description: "Imagine the Ideal"
-date: 2020-05-17
-draft: false
----
++++
+title = "Imagine the Ideal"
+date = 2020-05-17
+aliases = ["/imagine-the-ideal"]
++++
 
 [KonMari Method][1] is a decluttering and organizing method, introduced in [The Life-Changing Magic of Tidying Up][2], written by Marie Kondo. There was even a TV series, [Tidying Up with Marie Kondo][3], about this tidying method on Netflix.
 

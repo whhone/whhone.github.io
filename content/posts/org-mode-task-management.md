@@ -1,9 +1,8 @@
----
-title: "An Org-Mode Workflow for Task Management"
-date: 2020-10-31
-tags: ["emacs", "personal-development"]
-draft: false
----
++++
+title = "An Org-Mode Workflow for Task Management"
+date = 2020-10-31
+tags = ["emacs", "personal-development"]
++++
 
 As mentioned in the [last post](/posts/from-evernote-to-org-mode/), I switched to Org-Mode.  I kept adjusting my workflow with this new tool and it has been stabilized for a month. I think it is time to talk about the new workflow for task/time management with Org-Mode. This blog post consists of four parts: the principles, the definitions, the workflows, and finally the implementations.
 
