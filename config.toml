@@ -1,0 +1,84 @@
+baseURL = "https://whhone.com/"
+title = "Wai Hon's Blog"
+paginate = 5
+theme = "hugo-PaperMod"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+googleAnalytics = "UA-38001261-1"
+
+[minify]
+disableXML = true
+minifyOutput = false
+
+[languages.en]
+languageName = "English"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[languages.en.menu.main]]
+name = "Archives"
+url = "archives/"
+weight = 4
+
+[[languages.en.menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 3
+
+[[languages.en.menu.main]]
+name = "Search"
+url = "search/"
+weight = 5
+
+[[languages.en.menu.main]]
+name = "About"
+url = "about/"
+weight = 2
+
+[[languages.en.menu.main]]
+name = "RSS"
+url = "index.xml"
+weight = 6
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+
+[params]
+description = "The Personal Blog of Wai Hon Law (whhone)"
+ShowReadingTime = false
+defaultTheme = "auto"
+ShowShareButtons = false
+displayFullLangName = false
+disableSpecial1stPost = true
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy.vimeo]
+disabled = false
+simple = true
+
+[privacy.twitter]
+disabled = false
+enableDNT = true
+simple = true
+
+[privacy.instagram]
+disabled = false
+simple = true
+
+[privacy.youtube]
+disabled = false
+privacyEnhanced = true
+
+[services.instagram]
+disableInlineCSS = true
+
+[services.twitter]
+disableInlineCSS = true
