@@ -1,8 +1,8 @@
----
-title: "Pacman / Yay"
-tags: ["arch-linux"]
-draft: true
----
++++
+title = "Pacman / Yay"
+tags = ["arch-linux"]
+draft = true
++++
 
 ## Pacman
 
