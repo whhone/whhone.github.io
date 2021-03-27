@@ -4,12 +4,6 @@ aliases = ["/productivity-system"]
 description = "Creating a system to manage myself."
 date = 2020-01-12
 tags = ["personal-development"]
-[[resources]]
-  name = "notebook-list.png"
-  src = "notebook-list.png"
-[[resources]]
-  name = "reminder.png"
-  src = "reminder.png"
 +++
 
 In this era, there are "productive people" who use "productivity systems" to manage day-to-day chores, TODOs, notes and so on. These productivity systems are usually note taking apps (Apple Notes, Evernote, Google Keep, OneNote),  task manager apps (Todoist, Wunderlist, TickTick), paper notebooks or the combination of them.
@@ -36,9 +30,9 @@ For my own system, it is influenced by GTD but with some modifications. I sticke
 
 Lastly, adding two screenshots which might tell more than the words.
 
-{{< figure src="notebook-list.png" caption="Evernote Notebooks" >}}
+![](./notebook-list.png)
 
-{{< figure src="reminder.png" caption="Evernote Reminders" >}}
+![](./reminder.png)
 
 [1]: https://en.wikipedia.org/wiki/Getting_Things_Done
 [2]: https://bulletjournal.com/
