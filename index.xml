@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wai Hon&#39;s Blog</title>
-    <link>https://whhone.github.io/blog/</link>
+    <link>https://whhone.com/</link>
     <description>Recent content on Wai Hon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3 Levels of Programmers</title>
-      <link>https://whhone.github.io/blog/posts/3-levels-of-programmers/</link>
+      <link>https://whhone.com/posts/3-levels-of-programmers/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/posts/3-levels-of-programmers/</guid>
+      <guid>https://whhone.com/posts/3-levels-of-programmers/</guid>
       <description>This post categorizes programmers into 3 levels by their abilities to read and write in these 3 programming styles.
 Level 1: Newbie Programmers Programmers at this level can read and write the basic taught in &amp;ldquo;Introduction to XXX Programming&amp;rdquo;. They use indexed for loop or while loop for all repeated logic as these are the only options for them. Programmers at this level can read and write this code.
 int sumOddValuesLevel1(List&amp;lt;int&amp;gt; list) { var sum = 0; for (var i = 0; i &amp;lt;= list.</description>
@@ -19,19 +19,19 @@ int sumOddValuesLevel1(List&amp;lt;int&amp;gt; list) { var sum = 0; for (var i =
     
     <item>
       <title>About</title>
-      <link>https://whhone.github.io/blog/about/</link>
+      <link>https://whhone.com/about/</link>
       <pubDate>Fri, 25 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/about/</guid>
+      <guid>https://whhone.com/about/</guid>
       <description>My name is Wai Hon, a native Hongkonger, a software engineer, a husband and a father, now living in the Bay Area. I started writing this blog as my 2020 new year resolution, on the thoughts, learning methods and software engineering.</description>
     </item>
     
     <item>
       <title>The Hardest Make 24 Puzzles</title>
-      <link>https://whhone.github.io/blog/posts/the-hardest-make-24-puzzles/</link>
+      <link>https://whhone.com/posts/the-hardest-make-24-puzzles/</link>
       <pubDate>Fri, 25 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/posts/the-hardest-make-24-puzzles/</guid>
+      <guid>https://whhone.com/posts/the-hardest-make-24-puzzles/</guid>
       <description>Make 24 is a traditional math game with simple rule &amp;ndash; given 4 numbers, you are asked to make 24 with addition +, subtraction -, multiplication * and division /. Each number should be used once and only once.
 For example, (3, 7, 2, 1) --&amp;gt; 3 * (7 + 2 - 1) = 24.
 Most Make 24 puzzles are easy but a few are extremely hard. This post collects some of the hardest puzzles and discuss them in 3 types.</description>
@@ -39,40 +39,40 @@ Most Make 24 puzzles are easy but a few are extremely hard. This post collects s
     
     <item>
       <title>An Org-Mode Workflow for Task Management</title>
-      <link>https://whhone.github.io/blog/posts/org-mode-task-management/</link>
+      <link>https://whhone.com/posts/org-mode-task-management/</link>
       <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/posts/org-mode-task-management/</guid>
+      <guid>https://whhone.com/posts/org-mode-task-management/</guid>
       <description>As mentioned in the last post, I switched to Org-Mode. I kept adjusting my workflow with this new tool and it has been stabilized for a month. I think it is time to talk about the new workflow for task/time management with Org-Mode. This blog post consists of four parts: the principles, the definitions, the workflows, and finally the implementations.
 1 The Principles Principles remain valid no matter what the tool is.</description>
     </item>
     
     <item>
       <title>From Evernote to Org-Mode</title>
-      <link>https://whhone.github.io/blog/posts/from-evernote-to-org-mode/</link>
+      <link>https://whhone.com/posts/from-evernote-to-org-mode/</link>
       <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/posts/from-evernote-to-org-mode/</guid>
+      <guid>https://whhone.com/posts/from-evernote-to-org-mode/</guid>
       <description>Since 2017, Evernote has been my productivity system for note-taking and task management. I thought it was my ultimate system to stick with. It has served me so well and I have even became a paid user. However, mentioned in the last post, I am pursuing more privacy in my digital life and Evernote becomes a loophole.
  This post talks about the privacy concern, my research on the alternatives, and the switch to Org-Mode.</description>
     </item>
     
     <item>
       <title>Installing Arch Linux with Full Disk Encryption</title>
-      <link>https://whhone.github.io/blog/posts/arch-linux-full-disk-encryption/</link>
+      <link>https://whhone.com/posts/arch-linux-full-disk-encryption/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/posts/arch-linux-full-disk-encryption/</guid>
+      <guid>https://whhone.com/posts/arch-linux-full-disk-encryption/</guid>
       <description>I recently re-installed my Arch Linux with full disk encryption (FDE), as one of the first steps, to bring privacy into my life. This guide documents the installation process in a step-by-step manner. I hope this can help people who also want to practice privacy.
 Each step in this guide are linked to the corresponding ArchWiki, precised to section level. You are suggested to read these references and, of course, the official installation guide because</description>
     </item>
     
     <item>
       <title>Switching Windows in i3 Window Manager</title>
-      <link>https://whhone.github.io/blog/posts/i3-switching-windows/</link>
+      <link>https://whhone.com/posts/i3-switching-windows/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/posts/i3-switching-windows/</guid>
+      <guid>https://whhone.com/posts/i3-switching-windows/</guid>
       <description>3 years ago, I switched from Mac OS back to Linux. The main reason was i3wm — a tiling window manager for Linux — and its way to switch between windows.
 In this post, I am going to talk about how to switch windows on i3. But before that, let’s take a look at something we all know — Alt+Tab.
 The Ergonomics Problem with Alt+Tab Alt+Tab (or Command+Tab on Mac) is the most typical way to switch windows.</description>
@@ -80,20 +80,20 @@ The Ergonomics Problem with Alt+Tab Alt+Tab (or Command+Tab on Mac) is the most 
     
     <item>
       <title>Imagine the Ideal</title>
-      <link>https://whhone.github.io/blog/posts/imagine-the-ideal/</link>
+      <link>https://whhone.com/posts/imagine-the-ideal/</link>
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/posts/imagine-the-ideal/</guid>
+      <guid>https://whhone.com/posts/imagine-the-ideal/</guid>
       <description>KonMari Method is a decluttering and organizing method, introduced in The Life-Changing Magic of Tidying Up, written by Marie Kondo. There was even a TV series, Tidying Up with Marie Kondo, about this tidying method on Netflix.
 What KonMari Method interested me, is not the main course (the tidying process), but the appetizer (how the tidying begins). The method starts by imagining the ideal lifestyle and it’s details. Once intimately familiar with the ideal life, then one can start tidying up and moving closer to the ideal life.</description>
     </item>
     
     <item>
       <title>From Hugo to WordPress</title>
-      <link>https://whhone.github.io/blog/posts/hugo-to-wordpress/</link>
+      <link>https://whhone.com/posts/hugo-to-wordpress/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/posts/hugo-to-wordpress/</guid>
+      <guid>https://whhone.com/posts/hugo-to-wordpress/</guid>
       <description>(Update 2020-10: I am going back to Hugo and writing blog post with Emacs/easy-hugo.)
 I have been blogging with Hugo, a static site generator, for 5 months. Recently, I decided to ditch it and migrate to WordPress.Org for a more writer-friendly workflow. I want to spend more time and efforts on writing instead of coding.
 The Developer-Writer Dilemma Hugo is developer-friendly. It allows me to customize my site, in terms of the theme, layout, the content structure and also the Hugo Shortcodes very easily.</description>
@@ -101,19 +101,19 @@ The Developer-Writer Dilemma Hugo is developer-friendly. It allows me to customi
     
     <item>
       <title>Building Habits</title>
-      <link>https://whhone.github.io/blog/posts/building-habit/</link>
+      <link>https://whhone.com/posts/building-habit/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/posts/building-habit/</guid>
+      <guid>https://whhone.com/posts/building-habit/</guid>
       <description>The recent shelter-in-place / stay-at-home order has dramatically changed our routines. I don&amp;rsquo;t need to commute to office so I do not listen to podcasts. I don&amp;rsquo;t have morning coffee since I have no access to the mirco-kitchen in the office. I walk less as I stay at home all day. I started doing daily push up because it is less awkward to do at home, compared to the office. I spend more time with Casper because he is just nearby.</description>
     </item>
     
     <item>
       <title>Daily Journal</title>
-      <link>https://whhone.github.io/blog/posts/daily-journal/</link>
+      <link>https://whhone.com/posts/daily-journal/</link>
       <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/posts/daily-journal/</guid>
+      <guid>https://whhone.com/posts/daily-journal/</guid>
       <description>In the previous post 2019 Year-End Reflection, I wrote:
  I kept a daily journal. When people ask me why keeping a journal, my 2019 answer was to track TODO and activity log, then review at the end of the day. My 2020 answer is to make every day meaningful and counted. I will share the nuances in another post later.
  In this post, I will share how I got started and the 3 components of my daily journal.</description>
@@ -121,20 +121,20 @@ The Developer-Writer Dilemma Hugo is developer-friendly. It allows me to customi
     
     <item>
       <title>Effective Reading</title>
-      <link>https://whhone.github.io/blog/posts/effective-reading/</link>
+      <link>https://whhone.com/posts/effective-reading/</link>
       <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/posts/effective-reading/</guid>
+      <guid>https://whhone.com/posts/effective-reading/</guid>
       <description>It is probably easier to explain what ineffective reading is first.
 If you are &amp;ldquo;seeing&amp;rdquo; the words without processing, no matter how many words you &amp;ldquo;see&amp;rdquo; per minute, it is ineffective. If you cannot recall or refer to the key concepts of an inspiring book you have read in the past, no matter how many books you have read, it is ineffective. If you cannot implement what you read and make some differences in real life, no matter how many books you are aiming to read in a year, it is ineffective.</description>
     </item>
     
     <item>
       <title>Productivity System</title>
-      <link>https://whhone.github.io/blog/posts/productivity-system/</link>
+      <link>https://whhone.com/posts/productivity-system/</link>
       <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/posts/productivity-system/</guid>
+      <guid>https://whhone.com/posts/productivity-system/</guid>
       <description>In this era, there are &amp;ldquo;productive people&amp;rdquo; who use &amp;ldquo;productivity systems&amp;rdquo; to manage day-to-day chores, TODOs, notes and so on. These productivity systems are usually note taking apps (Apple Notes, Evernote, Google Keep, OneNote), task manager apps (Todoist, Wunderlist, TickTick), paper notebooks or the combination of them.
 These &amp;ldquo;productive people&amp;rdquo; could be divided into two kinds.
 The first kind works for the system. They fill the system with unactionable tasks that will never get done and unreadable notes that will never get used again.</description>
@@ -142,10 +142,10 @@ The first kind works for the system. They fill the system with unactionable task
     
     <item>
       <title>2019 Year-End Reflection</title>
-      <link>https://whhone.github.io/blog/posts/2019-year-end-reflection/</link>
+      <link>https://whhone.com/posts/2019-year-end-reflection/</link>
       <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/posts/2019-year-end-reflection/</guid>
+      <guid>https://whhone.com/posts/2019-year-end-reflection/</guid>
       <description>2019 is the year of changes to me, in terms of new habits developed and the new responsibility of becoming a father.
 Here are what I have done.
 I completed 9 English books. This number was a shameful ZERO for the 28 years before 2019. (Even when I was a student and being tasked to write book reports, I just paraphrased the introduction and/or some random pages of the books.) Reading have instilled new ideas into myself and also ignited other habits.</description>
@@ -153,19 +153,19 @@ I completed 9 English books. This number was a shameful ZERO for the 28 years be
     
     <item>
       <title>Archives</title>
-      <link>https://whhone.github.io/blog/archives/</link>
+      <link>https://whhone.com/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/archives/</guid>
+      <guid>https://whhone.com/archives/</guid>
       <description>archives</description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://whhone.github.io/blog/search/</link>
+      <link>https://whhone.com/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/search/</guid>
+      <guid>https://whhone.com/search/</guid>
       <description>search</description>
     </item>
     

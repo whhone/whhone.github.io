@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>i3wm on Wai Hon&#39;s Blog</title>
-    <link>https://whhone.github.io/blog/tags/i3wm/</link>
+    <link>https://whhone.com/tags/i3wm/</link>
     <description>Recent content in i3wm on Wai Hon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.github.io/blog/tags/i3wm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 21 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.com/tags/i3wm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Switching Windows in i3 Window Manager</title>
-      <link>https://whhone.github.io/blog/posts/i3-switching-windows/</link>
+      <link>https://whhone.com/posts/i3-switching-windows/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/blog/posts/i3-switching-windows/</guid>
+      <guid>https://whhone.com/posts/i3-switching-windows/</guid>
       <description>3 years ago, I switched from Mac OS back to Linux. The main reason was i3wm — a tiling window manager for Linux — and its way to switch between windows.
 In this post, I am going to talk about how to switch windows on i3. But before that, let’s take a look at something we all know — Alt+Tab.
 The Ergonomics Problem with Alt+Tab Alt+Tab (or Command+Tab on Mac) is the most typical way to switch windows.</description>

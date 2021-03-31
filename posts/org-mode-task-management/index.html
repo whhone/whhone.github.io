@@ -11,15 +11,15 @@
 <meta name="description" content="As mentioned in the last post, I switched to Org-Mode. I kept adjusting my workflow with this new tool and it has been stabilized for a month. I think it is time to talk about the new workflow for task/time management with Org-Mode. This blog post consists of four parts: the principles, the definitions, the workflows, and finally the implementations.
 1 The Principles Principles remain valid no matter what the tool is.">
 <meta name="author" content="">
-<link rel="canonical" href="https://whhone.github.io/blog/posts/org-mode-task-management/" />
-<link href="/blog/assets/css/stylesheet.min.6fdf38588ea13f9fcfd31bf64487e300c670aec39f9ab8cf5473a494b8097993.css" integrity="sha256-b984WI6hP5/P0xv2RIfjAMZwrsOfmrjPVHOklLgJeZM=" rel="preload stylesheet"
+<link rel="canonical" href="https://whhone.com/posts/org-mode-task-management/" />
+<link href="/assets/css/stylesheet.min.6fdf38588ea13f9fcfd31bf64487e300c670aec39f9ab8cf5473a494b8097993.css" integrity="sha256-b984WI6hP5/P0xv2RIfjAMZwrsOfmrjPVHOklLgJeZM=" rel="preload stylesheet"
     as="style">
 
-<link rel="icon" href="https://whhone.github.io/blog/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://whhone.github.io/blog/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://whhone.github.io/blog/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://whhone.github.io/blog/apple-touch-icon.png">
-<link rel="mask-icon" href="https://whhone.github.io/blog/safari-pinned-tab.svg">
+<link rel="icon" href="https://whhone.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://whhone.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://whhone.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://whhone.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://whhone.com/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.82.0" />
@@ -40,7 +40,7 @@ if (!doNotTrack) {
 <meta property="og:description" content="As mentioned in the last post, I switched to Org-Mode. I kept adjusting my workflow with this new tool and it has been stabilized for a month. I think it is time to talk about the new workflow for task/time management with Org-Mode. This blog post consists of four parts: the principles, the definitions, the workflows, and finally the implementations.
 1 The Principles Principles remain valid no matter what the tool is." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://whhone.github.io/blog/posts/org-mode-task-management/" />
+<meta property="og:url" content="https://whhone.com/posts/org-mode-task-management/" />
 <meta property="article:published_time" content="2020-10-31T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-10-31T00:00:00+00:00" />
 <meta name="twitter:card" content="summary"/>
@@ -58,13 +58,13 @@ if (!doNotTrack) {
       "@type": "ListItem",
       "position":  1 ,
       "name": "Posts",
-      "item": "https://whhone.github.io/blog/posts/"
+      "item": "https://whhone.com/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "An Org-Mode Workflow for Task Management",
-      "item": "https://whhone.github.io/blog/posts/org-mode-task-management/"
+      "item": "https://whhone.com/posts/org-mode-task-management/"
     }
   ]
 }
@@ -86,14 +86,14 @@ if (!doNotTrack) {
   "dateModified": "2020-10-31T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://whhone.github.io/blog/posts/org-mode-task-management/"
+    "@id": "https://whhone.com/posts/org-mode-task-management/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Wai Hon's Blog",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://whhone.github.io/blog/favicon.ico"
+      "url": "https://whhone.com/favicon.ico"
     }
   }
 }
@@ -128,7 +128,7 @@ if (!doNotTrack) {
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://whhone.github.io/blog/" accesskey="h" title="Wai Hon&#39;s Blog (Alt + H)">Wai Hon&#39;s Blog</a>
+            <a href="https://whhone.com/" accesskey="h" title="Wai Hon&#39;s Blog (Alt + H)">Wai Hon&#39;s Blog</a>
             <span class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -156,32 +156,32 @@ if (!doNotTrack) {
         </div>
         <ul id="menu" onscroll="menu_on_scroll()">
             <li>
-                <a href="https://whhone.github.io/blog/" title="Home">
+                <a href="https://whhone.com/" title="Home">
                     <span>Home</span>
                 </a>
             </li>
             <li>
-                <a href="https://whhone.github.io/blog/about/" title="About">
+                <a href="https://whhone.com/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
             <li>
-                <a href="https://whhone.github.io/blog/tags/" title="Tags">
+                <a href="https://whhone.com/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="https://whhone.github.io/blog/archives/" title="Archives">
+                <a href="https://whhone.com/archives/" title="Archives">
                     <span>Archives</span>
                 </a>
             </li>
             <li>
-                <a href="https://whhone.github.io/blog/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="https://whhone.com/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="https://whhone.github.io/blog/index.xml" title="RSS">
+                <a href="https://whhone.com/index.xml" title="RSS">
                     <span>RSS</span>
                 </a>
             </li></ul>
@@ -356,13 +356,13 @@ DEADLINE: &lt;<span style="color:#e6db74">2020-11-07 Sat</span>&gt; SCHEDULED: &
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://whhone.github.io/blog/tags/emacs/">emacs</a></li>
-      <li><a href="https://whhone.github.io/blog/tags/personal-development/">personal-development</a></li>
+      <li><a href="https://whhone.com/tags/emacs/">emacs</a></li>
+      <li><a href="https://whhone.com/tags/personal-development/">personal-development</a></li>
     </ul>
   </footer>
 </article>
     </main><footer class="footer">
-    <span>&copy; 2021 <a href="https://whhone.github.io/blog/">Wai Hon&#39;s Blog</a></span>
+    <span>&copy; 2021 <a href="https://whhone.com/">Wai Hon&#39;s Blog</a></span>
     <span>&middot;</span>
     <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
     <span>&middot;</span>
@@ -378,7 +378,7 @@ DEADLINE: &lt;<span style="color:#e6db74">2020-11-07 Sat</span>&gt; SCHEDULED: &
 
 
 
-<script defer src="/blog/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+<script defer src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
     onload="hljs.initHighlightingOnLoad();"></script>
 <script>
     window.onload = function () {
