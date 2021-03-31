@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>math on Wai Hon&#39;s Blog</title>
-    <link>https://whhone.github.io/tags/math/</link>
+    <link>https://whhone.github.io/blog/tags/math/</link>
     <description>Recent content in math on Wai Hon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 25 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.github.io/blog/tags/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Hardest Make 24 Puzzles</title>
-      <link>https://whhone.github.io/posts/the-hardest-make-24-puzzles/</link>
+      <link>https://whhone.github.io/blog/posts/the-hardest-make-24-puzzles/</link>
       <pubDate>Fri, 25 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/posts/the-hardest-make-24-puzzles/</guid>
+      <guid>https://whhone.github.io/blog/posts/the-hardest-make-24-puzzles/</guid>
       <description>Make 24 is a traditional math game with simple rule &amp;ndash; given 4 numbers, you are asked to make 24 with addition +, subtraction -, multiplication * and division /. Each number should be used once and only once.
 For example, (3, 7, 2, 1) --&amp;gt; 3 * (7 + 2 - 1) = 24.
 Most Make 24 puzzles are easy but a few are extremely hard. This post collects some of the hardest puzzles and discuss them in 3 types.</description>

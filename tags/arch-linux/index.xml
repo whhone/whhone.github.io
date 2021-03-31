@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>arch-linux on Wai Hon&#39;s Blog</title>
-    <link>https://whhone.github.io/tags/arch-linux/</link>
+    <link>https://whhone.github.io/blog/tags/arch-linux/</link>
     <description>Recent content in arch-linux on Wai Hon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 29 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.github.io/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.github.io/blog/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Installing Arch Linux with Full Disk Encryption</title>
-      <link>https://whhone.github.io/posts/arch-linux-full-disk-encryption/</link>
+      <link>https://whhone.github.io/blog/posts/arch-linux-full-disk-encryption/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.github.io/posts/arch-linux-full-disk-encryption/</guid>
+      <guid>https://whhone.github.io/blog/posts/arch-linux-full-disk-encryption/</guid>
       <description>I recently re-installed my Arch Linux with full disk encryption (FDE), as one of the first steps, to bring privacy into my life. This guide documents the installation process in a step-by-step manner. I hope this can help people who also want to practice privacy.
 Each step in this guide are linked to the corresponding ArchWiki, precised to section level. You are suggested to read these references and, of course, the official installation guide because</description>
     </item>
