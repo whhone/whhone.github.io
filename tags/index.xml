@@ -2,79 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Wai Hon&#39;s Blog</title>
-    <link>https://whhone.com/tags/</link>
+    <link>https://whhone.github.io/tags/</link>
     <description>Recent content in Tags on Wai Hon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>software-engineering</title>
-      <link>https://whhone.com/tags/software-engineering/</link>
+      <link>https://whhone.github.io/tags/software-engineering/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.com/tags/software-engineering/</guid>
+      <guid>https://whhone.github.io/tags/software-engineering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>math</title>
-      <link>https://whhone.com/tags/math/</link>
+      <link>https://whhone.github.io/tags/math/</link>
       <pubDate>Fri, 25 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.com/tags/math/</guid>
+      <guid>https://whhone.github.io/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>emacs</title>
-      <link>https://whhone.com/tags/emacs/</link>
+      <link>https://whhone.github.io/tags/emacs/</link>
       <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.com/tags/emacs/</guid>
+      <guid>https://whhone.github.io/tags/emacs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>personal-development</title>
-      <link>https://whhone.com/tags/personal-development/</link>
+      <link>https://whhone.github.io/tags/personal-development/</link>
       <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.com/tags/personal-development/</guid>
+      <guid>https://whhone.github.io/tags/personal-development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>privacy</title>
-      <link>https://whhone.com/tags/privacy/</link>
+      <link>https://whhone.github.io/tags/privacy/</link>
       <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.com/tags/privacy/</guid>
+      <guid>https://whhone.github.io/tags/privacy/</guid>
       <description></description>
     </item>
     
     <item>
       <title>arch-linux</title>
-      <link>https://whhone.com/tags/arch-linux/</link>
+      <link>https://whhone.github.io/tags/arch-linux/</link>
       <pubDate>Wed, 29 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.com/tags/arch-linux/</guid>
+      <guid>https://whhone.github.io/tags/arch-linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>i3wm</title>
-      <link>https://whhone.com/tags/i3wm/</link>
+      <link>https://whhone.github.io/tags/i3wm/</link>
       <pubDate>Sun, 21 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.com/tags/i3wm/</guid>
+      <guid>https://whhone.github.io/tags/i3wm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>writing</title>
-      <link>https://whhone.com/tags/writing/</link>
+      <link>https://whhone.github.io/tags/writing/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.com/tags/writing/</guid>
+      <guid>https://whhone.github.io/tags/writing/</guid>
       <description></description>
     </item>
     
