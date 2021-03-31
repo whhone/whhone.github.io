@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>software-engineering on Wai Hon&#39;s Blog</title>
-    <link>https://whhone.com/tags/software-engineering/</link>
+    <link>https://whhone.github.io/tags/software-engineering/</link>
     <description>Recent content in software-engineering on Wai Hon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.com/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.github.io/tags/software-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>3 Levels of Programmers</title>
-      <link>https://whhone.com/posts/3-levels-of-programmers/</link>
+      <link>https://whhone.github.io/posts/3-levels-of-programmers/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.com/posts/3-levels-of-programmers/</guid>
+      <guid>https://whhone.github.io/posts/3-levels-of-programmers/</guid>
       <description>This post categorizes programmers into 3 levels by their abilities to read and write in these 3 programming styles.
 Level 1: Newbie Programmers Programmers at this level can read and write the basic taught in &amp;ldquo;Introduction to XXX Programming&amp;rdquo;. They use indexed for loop or while loop for all repeated logic as these are the only options for them. Programmers at this level can read and write this code.
 int sumOddValuesLevel1(List&amp;lt;int&amp;gt; list) { var sum = 0; for (var i = 0; i &amp;lt;= list.</description>

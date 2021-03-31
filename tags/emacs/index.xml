@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>emacs on Wai Hon&#39;s Blog</title>
-    <link>https://whhone.com/tags/emacs/</link>
+    <link>https://whhone.github.io/tags/emacs/</link>
     <description>Recent content in emacs on Wai Hon&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.com/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An Org-Mode Workflow for Task Management</title>
-      <link>https://whhone.com/posts/org-mode-task-management/</link>
+      <link>https://whhone.github.io/posts/org-mode-task-management/</link>
       <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.com/posts/org-mode-task-management/</guid>
+      <guid>https://whhone.github.io/posts/org-mode-task-management/</guid>
       <description>As mentioned in the last post, I switched to Org-Mode. I kept adjusting my workflow with this new tool and it has been stabilized for a month. I think it is time to talk about the new workflow for task/time management with Org-Mode. This blog post consists of four parts: the principles, the definitions, the workflows, and finally the implementations.
 1 The Principles Principles remain valid no matter what the tool is.</description>
     </item>
     
     <item>
       <title>From Evernote to Org-Mode</title>
-      <link>https://whhone.com/posts/from-evernote-to-org-mode/</link>
+      <link>https://whhone.github.io/posts/from-evernote-to-org-mode/</link>
       <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://whhone.com/posts/from-evernote-to-org-mode/</guid>
+      <guid>https://whhone.github.io/posts/from-evernote-to-org-mode/</guid>
       <description>Since 2017, Evernote has been my productivity system for note-taking and task management. I thought it was my ultimate system to stick with. It has served me so well and I have even became a paid user. However, mentioned in the last post, I am pursuing more privacy in my digital life and Evernote becomes a loophole.
  This post talks about the privacy concern, my research on the alternatives, and the switch to Org-Mode.</description>
     </item>
