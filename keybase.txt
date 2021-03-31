@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/whhone
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://whhone.com
+  * I am whhone (https://keybase.io/whhone) on keybase.
+  * I have a public key ASCpaOsI-Ri-TiaIlT-O_XQnCz33XwKCXybmiAU0IsHS9Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01206b6b60c1c36af2fba449735c96e54483ed56efdc6df185f25b265515765dc5180a",
+      "host": "keybase.io",
+      "kid": "0120a968eb08f918be4e2688953f8efd74270b3df75f02825f26e688053422c1d2f40a",
+      "uid": "7437c4dbf776e4e931f3b7b33c3c7019",
+      "username": "whhone"
+    },
+    "merkle_root": {
+      "ctime": 1596660291,
+      "hash": "d1380656b2f3744a2194955b006fc14bb30c62b2c9dead5036b4738bc80081f95f9ea36fa7df873b256e99d4ae2b7e89f4997ab0552b3027ac16627c997193ed",
+      "hash_meta": "3fa5229309d3cc49df60d698688b549814f937cef1838ff42a62c9e4d41df928",
+      "seqno": 17194933
+    },
+    "service": {
+      "entropy": "OooarLJWCfvT3FKGlxarBCrt",
+      "hostname": "whhone.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.1"
+  },
+  "ctime": 1596660364,
+  "expire_in": 504576000,
+  "prev": "5eb13c67e376707b6175ad997e62843c338c9cac06c1c48cda5ccbbb74721053",
+  "seqno": 14,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgqWjrCPkYvk4miJU/jv10Jws9918Cgl8m5ogFNCLB0vQKp3BheWxvYWTESpcCDsQgXrE8Z+N2cHthda2ZfmKEPDOMnKwGwcSM2lzLu3RyEFPEIMtN+fEDuURtV8mBUkUycQ+QBVi1FA7jvjWx74FCjrAPAgHCo3NpZ8RAhMnRTKaXsZlen40hVa8LzCxA5FiL39fIUwRkz4dLZck79zw1qlVK/gHELMyth4T7FwvSsWpbkLxMzNRb8eVPAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIG1/nfuI9Equ2m0BrZy1OEp5EUCE8sHCEAQoiV0c/Mdno3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/whhone
+
+==================================================================

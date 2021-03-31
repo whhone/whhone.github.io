@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>An Org-Mode Workflow for Task Management | Wai Hon&#39;s Blog</title>
+
+<meta name="keywords" content="emacs, personal-development" />
+<meta name="description" content="As mentioned in the last post, I switched to Org-Mode. I kept adjusting my workflow with this new tool and it has been stabilized for a month. I think it is time to talk about the new workflow for task/time management with Org-Mode. This blog post consists of four parts: the principles, the definitions, the workflows, and finally the implementations.
+1 The Principles Principles remain valid no matter what the tool is.">
+<meta name="author" content="">
+<link rel="canonical" href="https://whhone.com/posts/org-mode-task-management/" />
+<link href="/assets/css/stylesheet.min.6fdf38588ea13f9fcfd31bf64487e300c670aec39f9ab8cf5473a494b8097993.css" integrity="sha256-b984WI6hP5/P0xv2RIfjAMZwrsOfmrjPVHOklLgJeZM=" rel="preload stylesheet"
+    as="style">
+
+<link rel="icon" href="https://whhone.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://whhone.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://whhone.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://whhone.com/apple-touch-icon.png">
+<link rel="mask-icon" href="https://whhone.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.82.0" />
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-38001261-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+<meta property="og:title" content="An Org-Mode Workflow for Task Management" />
+<meta property="og:description" content="As mentioned in the last post, I switched to Org-Mode. I kept adjusting my workflow with this new tool and it has been stabilized for a month. I think it is time to talk about the new workflow for task/time management with Org-Mode. This blog post consists of four parts: the principles, the definitions, the workflows, and finally the implementations.
+1 The Principles Principles remain valid no matter what the tool is." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://whhone.com/posts/org-mode-task-management/" />
+<meta property="article:published_time" content="2020-10-31T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-31T00:00:00+00:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="An Org-Mode Workflow for Task Management"/>
+<meta name="twitter:description" content="As mentioned in the last post, I switched to Org-Mode. I kept adjusting my workflow with this new tool and it has been stabilized for a month. I think it is time to talk about the new workflow for task/time management with Org-Mode. This blog post consists of four parts: the principles, the definitions, the workflows, and finally the implementations.
+1 The Principles Principles remain valid no matter what the tool is."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://whhone.com/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "An Org-Mode Workflow for Task Management",
+      "item": "https://whhone.com/posts/org-mode-task-management/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "An Org-Mode Workflow for Task Management",
+  "name": "An Org-Mode Workflow for Task Management",
+  "description": "As mentioned in the last post, I switched to Org-Mode. I kept adjusting my workflow with this new tool and it has been stabilized for a month. I think it is time to talk about the …",
+  "keywords": [
+    "emacs", "personal-development"
+  ],
+  "articleBody": "As mentioned in the last post, I switched to Org-Mode. I kept adjusting my workflow with this new tool and it has been stabilized for a month. I think it is time to talk about the new workflow for task/time management with Org-Mode. This blog post consists of four parts: the principles, the definitions, the workflows, and finally the implementations.\n1 The Principles Principles remain valid no matter what the tool is.\n1.1 Do Not Add Tasks Indiscriminately Not every task should go into the system. Avoid filling the system with bullshits and hiding the things that matter. I only add tasks that I really want or need to do.\nTo clarify1, the task management system describled below is not the “inbox” in GTD. I still capture things into my inbox but not all of them will be converted to a task in the task management system (org agenda files) eventually.\n1.2 Not All Tasks Have To Be Done There are two reasons for this. First, tasks could be deprioritized or even become unnecessary. Second, we have limited time and cannot do everything. We should have an opinion on the priority.\n1.3 Reduce The Number Of Open Loop Open loops are tasks that have been started but not finished. They stay in our minds and occupy some of our limited working memory so that we cannot focus on another task we are working on.\nAlso, open loops reduce agility, according to Little’s Law. The more the open loops, the longer time finish each of them on average.\n1.4 Reduce Decision Making Of What To Do Next The system should suggest to the user what to do next so that the user can reserve the will power to the real task. This also avoids skipping hard tasks with easy tasks unconsciously.\n2 The Definitions Each task in Org-Mode has a TODO keyword, optionally a scheduled date, and a deadline. For example,\n*PROG Write a blog post on task management with Org-Mode DEADLINE: 2020-11-07 Sat SCHEDULED: 2020-10-31 Sat Each Org-Mode user could define their own set of TODO keywords and use scheduled dates and deadlines differently. For example, some people use only two TODO keywords, “TODO” and “DONE”, while some use more. Some people set “scheduled dates” to all the tasks while some people set it to some of the tasks. These nuances could result in a very different workflow, although they are using the same Org-Mode. Let’s take a look at how I use them.\n2.1 TODO Keywords I use as few TODO keywords as possible but not too few. For example, it is common to use only two states (“TODO” and “DONE”) but this does not align with the principles I mentioned above. I need a state for “open loops” so that I can keep the number of them small. I also need to distinguish a smaller set of “next actions” from all tasks.\nSo far, I defined these five keywords:\n   TODO Keyword Definition     TODO Tasks that are not started and not planned. They could be the backlogs or the GTD’s someday/maybe. These tasks could be converted to NEXT during a review.   NEXT Tasks that are not started but planned to do as soon as I can. When there is no actionable PROG (e.g., blocked), I start one of those and convert it to PROG.   PROG Tasks that are working in progress (open loops). I work on these tasks before starting another NEXT task to avoid too many open loops at any moment.   INTR The tasks that are interruptions. They are urgent things that I should drop everything else and work on it. For example, production issues.   DONE The tasks that are completed.    This diagram illustrates the transition of those states.\n+------+ | INTR | +------+ | v +------+ +------+ +------+ +------+ | TODO |--| NEXT |--| PROG |--| DONE | +------+ +------+ +------+ +------+ 2.2 Scheduled and Deadline In the past, I tended to set a date for all tasks. If I want to do A, B, and C on Monday, then I schedule them for Monday. This sounds very intuitive but, in reality, I ended up rescheduling many incompleted tasks at the end of every day. It was not only wasting time but also depressing.\nLater, I changed to rely more on the TODO keywords. For example, if a task is still in progress, I keep the state unchanged as PROG instead of rescheduling it every day until it is done. I am now using the “scheduled date” to hide a task until the date I should look at it again. Similar to the snooze feature in Gmail.\n   Date Definition     SCHEDULED Hide the task until the scheduled date.   DEADLINE The deadline of the task.    For example, when a PROG task is being blocked, I set the SCHEDULED date to hide it until the date I want to revisit. On the scheduled date, if the task is unblocked, I will remove the SCHEDULED date. If the task is still blocked, I reschedule it again. It acts as the waiting for list in GTD.\n3 The Workflow I customize my org agenda view to drive my daily workflow. The customized agenda view has four sections. From the top to bottom, they are the tasks scheduled today, the INTR tasks, the PROG tasks, and finally the NEXT tasks.\nMy daily workflow goes from the top to the bottom.\n3.1 Update Tasks Scheduled Today At the beginning of the day, I review the tasks that are scheduled for today. The goal here is not to finish them, but to update or remove the scheduled date so that there is nothing left.\n If the task is still blocked, reschedule it If the task could be done in a few minutes, then do it and mark it as DONE. Otherwise, remove the scheduled date and optionally update the TODO keywords.  Removing the scheduled date is the best outcome. It indicates the previous estimation was correct, at least not too early. Rescheduling indicates the previous estimation is inaccurate. I would avoid rescheduling the task to tomorrow indiscriminately and try to make a good estimation to reduce the number of rescheduling.\n3.2 Find the Next Task to Work On After reviewing all tasks scheduled for today, it is time to pick a task and do some real works. This step is very straight-forward with the customized agenda view above.\n Pick an INTR task if there is any. If there is no INTR task, then pick a PROG task and work on it. If that task is blocked, set a SCHEDULED date to hide it. If there is no INTR and PROG task, then start a NEXT task. If there is no task in the agenda view, then review the TODO tasks and convert some to NEXT.  3.3 Review the System The secret of having a system that works in the long-term is regular maintenance. I do it at least once a week. For examples,\n Promote some tasks from TODO to NEXT. Demote or even delete deprioritized tasks. Review the journal and add TODO if something needs follow-up. Archive completed tasks and extract to permanent notes2.  4 The Configuration Finally, here is the configuration for the above workflow.\n;; Emacs Easy Customization (\"M-x customize\") syntax is used. ;; If you prefer using .el files directly, set it with \"setq\". ;; TODO keywords. '(org-todo-keywords '((sequence \"TODO(t)\" \"NEXT(n)\" \"PROG(p)\" \"INTR(i)\" \"DONE(d)\"))) ;; Show the daily agenda by default. '(org-agenda-span 'day) ;; Hide tasks that are scheduled in the future. '(org-agenda-todo-ignore-scheduled 'future) ;; Use \"second\" instead of \"day\" for time comparison. ;; It hides tasks with a scheduled time like \"\" '(org-agenda-todo-ignore-time-comparison-use-seconds t) ;; Hide the deadline prewarning prior to scheduled date. '(org-agenda-skip-deadline-prewarning-if-scheduled 'pre-scheduled) ;; Customized view for the daily workflow. (Command: \"C-c a n\") '(org-agenda-custom-commands '((\"n\" \"Agenda / INTR / PROG / NEXT\" ((agenda \"\" nil) (todo \"INTR\" nil) (todo \"PROG\" nil) (todo \"NEXT\" nil)) nil)))   Thanks for this comment in Reddit. ↩︎\n There will be another post for Org-Mode note-taking workflow. ↩︎\n   ",
+  "wordCount" : "1336",
+  "inLanguage": "en",
+  "datePublished": "2020-10-31T00:00:00Z",
+  "dateModified": "2020-10-31T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://whhone.com/posts/org-mode-task-management/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Wai Hon's Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://whhone.com/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+
+
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+<noscript>
+    <style type="text/css">
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://whhone.com/" accesskey="h" title="Wai Hon&#39;s Blog (Alt + H)">Wai Hon&#39;s Blog</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                
+                
+            </span>
+        </div>
+        <ul id="menu" onscroll="menu_on_scroll()">
+            <li>
+                <a href="https://whhone.com/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://whhone.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://whhone.com/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://whhone.com/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://whhone.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://whhone.com/index.xml" title="RSS">
+                    <span>RSS</span>
+                </a>
+            </li></ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+
+    <h1 class="post-title">
+      An Org-Mode Workflow for Task Management
+    </h1>
+    <div class="post-meta">October 31, 2020
+
+</div>
+  </header> 
+
+  <div class="post-content">
+<p>As mentioned in the <a href="/posts/from-evernote-to-org-mode/">last post</a>, I switched to Org-Mode.  I kept adjusting my workflow with this new tool and it has been stabilized for a month. I think it is time to talk about the new workflow for task/time management with Org-Mode. This blog post consists of four parts: the principles, the definitions, the workflows, and finally the implementations.</p>
+<h2 id="1-the-principles">1 The Principles<a hidden class="anchor" aria-hidden="true" href="#1-the-principles">#</a></h2>
+<p>Principles remain valid no matter what the tool is.</p>
+<h3 id="11-do-not-add-tasks-indiscriminately">1.1 Do Not Add Tasks Indiscriminately<a hidden class="anchor" aria-hidden="true" href="#11-do-not-add-tasks-indiscriminately">#</a></h3>
+<p>Not every task should go into the system. Avoid filling the system with bullshits and hiding the things that matter. I only add tasks that I really want or need to do.</p>
+<p>To clarify<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, the task management system describled below is not the &ldquo;inbox&rdquo; in GTD. I still capture things into my inbox but not all of them will be converted to a task in the task management system (org agenda files) eventually.</p>
+<h3 id="12-not-all-tasks-have-to-be-done">1.2 Not All Tasks Have To Be Done<a hidden class="anchor" aria-hidden="true" href="#12-not-all-tasks-have-to-be-done">#</a></h3>
+<p>There are two reasons for this. First, tasks could be deprioritized or even become unnecessary. Second, we have limited time and cannot do everything. We should have an opinion on the priority.</p>
+<h3 id="13-reduce-the-number-of-open-loop">1.3 Reduce The Number Of Open Loop<a hidden class="anchor" aria-hidden="true" href="#13-reduce-the-number-of-open-loop">#</a></h3>
+<p>Open loops are tasks that have been started but not finished. They stay in our minds and occupy some of our limited working memory so that we cannot focus on another task we are working on.</p>
+<p>Also, open loops reduce agility, according to <a href="https://en.wikipedia.org/wiki/Little%27s_law">Little&rsquo;s Law</a>. The more the open loops, the longer time finish each of them on average.</p>
+<h3 id="14-reduce-decision-making-of-what-to-do-next">1.4 Reduce Decision Making Of What To Do Next<a hidden class="anchor" aria-hidden="true" href="#14-reduce-decision-making-of-what-to-do-next">#</a></h3>
+<p>The system should suggest to the user what to do next so that the user can reserve the will power to the real task. This also avoids skipping hard tasks with easy tasks unconsciously.</p>
+<h2 id="2-the-definitions">2 The Definitions<a hidden class="anchor" aria-hidden="true" href="#2-the-definitions">#</a></h2>
+<p>Each task in Org-Mode has a <a href="https://orgmode.org/manual/Workflow-states.html">TODO keyword</a>, optionally <a href="https://orgmode.org/manual/Deadlines-and-Scheduling.html">a scheduled date, and a deadline</a>. For example,</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-org" data-lang="org">*<span style="font-weight:bold"> PROG Write a blog post on task management with Org-Mode</span>
+DEADLINE: &lt;<span style="color:#e6db74">2020-11-07 Sat</span>&gt; SCHEDULED: &lt;<span style="color:#e6db74">2020-10-31 Sat</span>&gt;
+</code></pre></div><p>Each Org-Mode user could define their own set of TODO keywords and use scheduled dates and deadlines differently. For example, some people use only two TODO keywords, &ldquo;TODO&rdquo; and &ldquo;DONE&rdquo;, while some use more. Some people set &ldquo;scheduled dates&rdquo; to all the tasks while some people set it to some of the tasks. These nuances could result in a very different workflow, although they are using the same Org-Mode. Let&rsquo;s take a look at how I use them.</p>
+<h3 id="21-todo-keywords">2.1 TODO Keywords<a hidden class="anchor" aria-hidden="true" href="#21-todo-keywords">#</a></h3>
+<p>I use as few TODO keywords as possible but not too few. For example, it is common to use only two states (&ldquo;TODO&rdquo; and &ldquo;DONE&rdquo;) but this does not align with the principles I mentioned above. I need a state for &ldquo;open loops&rdquo; so that I can keep the number of them small. I also need to distinguish a smaller set of &ldquo;next actions&rdquo; from all tasks.</p>
+<p>So far, I defined these five keywords:</p>
+<table>
+<thead>
+<tr>
+<th>TODO Keyword</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>TODO</code></td>
+<td><strong>Tasks that are not started and not planned.</strong> They could be the backlogs or the GTD&rsquo;s someday/maybe. These tasks could be converted to <code>NEXT</code> during a review.</td>
+</tr>
+<tr>
+<td><code>NEXT</code></td>
+<td><strong>Tasks that are not started but planned to do as soon as I can.</strong>  When there is no actionable <code>PROG</code> (e.g., blocked), I start one of those and convert it to <code>PROG</code>.</td>
+</tr>
+<tr>
+<td><code>PROG</code></td>
+<td><strong>Tasks that are working in progress (open loops).</strong> I work on these tasks before starting another <code>NEXT</code> task to avoid too many open loops at any moment.</td>
+</tr>
+<tr>
+<td><code>INTR</code></td>
+<td><strong>The tasks that are interruptions.</strong> They are urgent things that I should drop everything else and work on it. For example, production issues.</td>
+</tr>
+<tr>
+<td><code>DONE</code></td>
+<td><strong>The tasks that are completed.</strong></td>
+</tr>
+</tbody>
+</table>
+<p>This diagram illustrates the transition of those states.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-plain" data-lang="plain">                                 +------+
+                                 | INTR |
+                                 +------+
+                                    |
+                                    v
++------+   +------+   +------+   +------+
+| TODO |--&gt;| NEXT |--&gt;| PROG |--&gt;| DONE |
++------+   +------+   +------+   +------+
+</code></pre></div><h3 id="22-scheduled-and-deadline">2.2 Scheduled and Deadline<a hidden class="anchor" aria-hidden="true" href="#22-scheduled-and-deadline">#</a></h3>
+<p>In the past, I tended to set a date for all tasks. If I want to do A, B, and C on Monday, then I schedule them for Monday. This sounds very intuitive but, in reality, I ended up rescheduling many incompleted tasks at the end of every day. It was not only wasting time but also depressing.</p>
+<p>Later, I changed to rely more on the TODO keywords. For example, if a task is still in progress, I keep the state unchanged as <code>PROG</code> instead of rescheduling it every day until it is done. I am now using the &ldquo;scheduled date&rdquo; to hide a task until the date I should look at it again. Similar to the snooze feature in Gmail.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Definition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>SCHEDULED</code></td>
+<td>Hide the task until the scheduled date.</td>
+</tr>
+<tr>
+<td><code>DEADLINE</code></td>
+<td>The deadline of the task.</td>
+</tr>
+</tbody>
+</table>
+<p>For example, when a <code>PROG</code> task is being blocked, I set the <code>SCHEDULED</code> date to hide it until the date I want to revisit. On the scheduled date, if the task is unblocked, I will remove the <code>SCHEDULED</code> date. If the task is still blocked, I reschedule it again. It acts as the <a href="https://hamberg.no/gtd#the-waiting-for-list">waiting for list</a> in GTD.</p>
+<h2 id="3-the-workflow">3 The Workflow<a hidden class="anchor" aria-hidden="true" href="#3-the-workflow">#</a></h2>
+<p>I customize my org agenda view to drive my daily workflow. The customized agenda view has four sections. From the top to bottom, they are the tasks scheduled today, the <code>INTR</code> tasks, the <code>PROG</code> tasks, and finally the <code>NEXT</code> tasks.</p>
+<p><img src="/img/org-agenda.png" alt="Org Agenda"></p>
+<p>My daily workflow goes from the top to the bottom.</p>
+<h3 id="31-update-tasks-scheduled-today">3.1 Update Tasks Scheduled Today<a hidden class="anchor" aria-hidden="true" href="#31-update-tasks-scheduled-today">#</a></h3>
+<p>At the beginning of the day, I review the tasks that are scheduled for today. The goal here is not to finish them, but to update or remove the scheduled date so that there is nothing left.</p>
+<ol>
+<li>If the task is still blocked, reschedule it</li>
+<li>If the task could be done in a few minutes, then do it and mark it as <code>DONE</code>.</li>
+<li>Otherwise, remove the scheduled date and optionally update the TODO keywords.</li>
+</ol>
+<p>Removing the scheduled date is the best outcome. It indicates the previous estimation was correct, at least not too early. Rescheduling indicates the previous estimation is inaccurate. I would avoid rescheduling the task to tomorrow indiscriminately and try to make a good estimation to reduce the number of rescheduling.</p>
+<h3 id="32-find-the-next-task-to-work-on">3.2 Find the Next Task to Work On<a hidden class="anchor" aria-hidden="true" href="#32-find-the-next-task-to-work-on">#</a></h3>
+<p>After reviewing all tasks scheduled for today, it is time to pick a task and do some real works. This step is very straight-forward with the customized agenda view above.</p>
+<ol>
+<li>Pick an <code>INTR</code> task if there is any.</li>
+<li>If there is no <code>INTR</code> task, then pick a <code>PROG</code> task and work on it. If that task is blocked, set a <code>SCHEDULED</code> date to hide it.</li>
+<li>If there is no <code>INTR</code> and <code>PROG</code> task, then start a <code>NEXT</code> task.</li>
+<li>If there is no task in the agenda view, then review the <code>TODO</code> tasks and convert some to <code>NEXT</code>.</li>
+</ol>
+<h3 id="33-review-the-system">3.3 Review the System<a hidden class="anchor" aria-hidden="true" href="#33-review-the-system">#</a></h3>
+<p>The secret of having a system that works in the long-term is regular maintenance. I do it at least once a week. For examples,</p>
+<ul>
+<li>Promote some tasks from <code>TODO</code> to <code>NEXT</code>. Demote or even delete deprioritized tasks.</li>
+<li>Review the <a href="/posts/daily-journal/">journal</a> and add <code>TODO</code> if something needs follow-up.</li>
+<li><a href="https://orgmode.org/manual/Archiving.html">Archive</a> completed tasks and extract to permanent notes<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>.</li>
+</ul>
+<h2 id="4-the-configuration">4 The Configuration<a hidden class="anchor" aria-hidden="true" href="#4-the-configuration">#</a></h2>
+<p>Finally, here is the configuration for the above workflow.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-lisp" data-lang="lisp"><span style="color:#75715e">;; Emacs Easy Customization (&#34;M-x customize&#34;) syntax is used.</span>
+<span style="color:#75715e">;; If you prefer using .el files directly, set it with &#34;setq&#34;.</span>
+
+<span style="color:#75715e">;; TODO keywords.</span>
+<span style="color:#f92672">&#39;</span>(org-todo-keywords
+  <span style="color:#f92672">&#39;</span>((<span style="color:#a6e22e">sequence</span> <span style="color:#e6db74">&#34;TODO(t)&#34;</span> <span style="color:#e6db74">&#34;NEXT(n)&#34;</span> <span style="color:#e6db74">&#34;PROG(p)&#34;</span> <span style="color:#e6db74">&#34;INTR(i)&#34;</span> <span style="color:#e6db74">&#34;DONE(d)&#34;</span>)))
+
+<span style="color:#75715e">;; Show the daily agenda by default.</span>
+<span style="color:#f92672">&#39;</span>(org-agenda-span <span style="color:#e6db74">&#39;day</span>)
+
+<span style="color:#75715e">;; Hide tasks that are scheduled in the future.</span>
+<span style="color:#f92672">&#39;</span>(org-agenda-todo-ignore-scheduled <span style="color:#e6db74">&#39;future</span>)
+
+<span style="color:#75715e">;; Use &#34;second&#34; instead of &#34;day&#34; for time comparison.</span>
+<span style="color:#75715e">;; It hides tasks with a scheduled time like &#34;&lt;2020-11-15 Sun 11:30&gt;&#34;</span>
+<span style="color:#f92672">&#39;</span>(org-agenda-todo-ignore-time-comparison-use-seconds <span style="color:#66d9ef">t</span>)
+
+<span style="color:#75715e">;; Hide the deadline prewarning prior to scheduled date.</span>
+<span style="color:#f92672">&#39;</span>(org-agenda-skip-deadline-prewarning-if-scheduled <span style="color:#e6db74">&#39;pre-scheduled</span>)
+
+<span style="color:#75715e">;; Customized view for the daily workflow. (Command: &#34;C-c a n&#34;)</span>
+<span style="color:#f92672">&#39;</span>(org-agenda-custom-commands
+  <span style="color:#f92672">&#39;</span>((<span style="color:#e6db74">&#34;n&#34;</span> <span style="color:#e6db74">&#34;Agenda / INTR / PROG / NEXT&#34;</span>
+     ((agenda <span style="color:#e6db74">&#34;&#34;</span> <span style="color:#66d9ef">nil</span>)
+      (todo <span style="color:#e6db74">&#34;INTR&#34;</span> <span style="color:#66d9ef">nil</span>)
+      (todo <span style="color:#e6db74">&#34;PROG&#34;</span> <span style="color:#66d9ef">nil</span>)
+      (todo <span style="color:#e6db74">&#34;NEXT&#34;</span> <span style="color:#66d9ef">nil</span>))
+     <span style="color:#66d9ef">nil</span>)))
+</code></pre></div><section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Thanks for <a href="https://www.reddit.com/r/orgmode/comments/jmf8dw/an_orgmode_workflow_for_task_management/gavkv1r/?context=3">this comment</a> in Reddit. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>There will be another post for Org-Mode note-taking workflow. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://whhone.com/tags/emacs/">emacs</a></li>
+      <li><a href="https://whhone.com/tags/personal-development/">personal-development</a></li>
+    </ul>
+  </footer>
+</article>
+    </main><footer class="footer">
+    <span>&copy; 2021 <a href="https://whhone.com/">Wai Hon&#39;s Blog</a></span>
+    <span>&middot;</span>
+    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
+    <span>&middot;</span>
+    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
+    <button class="top-link" id="top-link" type="button" accesskey="g">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+            <path d="M12 6H0l6-6z" />
+        </svg>
+    </button>
+</a>
+
+
+
+<script defer src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<script>
+    window.onload = function () {
+        if (localStorage.getItem("menu-scroll-position")) {
+            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
+        }
+    }
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+    function menu_on_scroll() {
+        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
+    }
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+
+</body>
+
+</html>

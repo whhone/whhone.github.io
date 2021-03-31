@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>writing on Wai Hon&#39;s Blog</title>
+    <link>https://whhone.com/tags/writing/</link>
+    <description>Recent content in writing on Wai Hon&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.com/tags/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>From Hugo to WordPress</title>
+      <link>https://whhone.com/posts/hugo-to-wordpress/</link>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://whhone.com/posts/hugo-to-wordpress/</guid>
+      <description>(Update 2020-10: I am going back to Hugo and writing blog post with Emacs/easy-hugo.)
+I have been blogging with Hugo, a static site generator, for 5 months. Recently, I decided to ditch it and migrate to WordPress.Org for a more writer-friendly workflow. I want to spend more time and efforts on writing instead of coding.
+The Developer-Writer Dilemma Hugo is developer-friendly. It allows me to customize my site, in terms of the theme, layout, the content structure and also the Hugo Shortcodes very easily.</description>
+    </item>
+    
+    <item>
+      <title>2019 Year-End Reflection</title>
+      <link>https://whhone.com/posts/2019-year-end-reflection/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://whhone.com/posts/2019-year-end-reflection/</guid>
+      <description>2019 is the year of changes to me, in terms of new habits developed and the new responsibility of becoming a father.
+Here are what I have done.
+I completed 9 English books. This number was a shameful ZERO for the 28 years before 2019. (Even when I was a student and being tasked to write book reports, I just paraphrased the introduction and/or some random pages of the books.) Reading have instilled new ideas into myself and also ignited other habits.</description>
+    </item>
+    
+  </channel>
+</rss>

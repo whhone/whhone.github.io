@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>personal-development on Wai Hon&#39;s Blog</title>
+    <link>https://whhone.com/tags/personal-development/</link>
+    <description>Recent content in personal-development on Wai Hon&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://whhone.com/tags/personal-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Org-Mode Workflow for Task Management</title>
+      <link>https://whhone.com/posts/org-mode-task-management/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://whhone.com/posts/org-mode-task-management/</guid>
+      <description>As mentioned in the last post, I switched to Org-Mode. I kept adjusting my workflow with this new tool and it has been stabilized for a month. I think it is time to talk about the new workflow for task/time management with Org-Mode. This blog post consists of four parts: the principles, the definitions, the workflows, and finally the implementations.
+1 The Principles Principles remain valid no matter what the tool is.</description>
+    </item>
+    
+    <item>
+      <title>From Evernote to Org-Mode</title>
+      <link>https://whhone.com/posts/from-evernote-to-org-mode/</link>
+      <pubDate>Thu, 03 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://whhone.com/posts/from-evernote-to-org-mode/</guid>
+      <description>Since 2017, Evernote has been my productivity system for note-taking and task management. I thought it was my ultimate system to stick with. It has served me so well and I have even became a paid user. However, mentioned in the last post, I am pursuing more privacy in my digital life and Evernote becomes a loophole.
+ This post talks about the privacy concern, my research on the alternatives, and the switch to Org-Mode.</description>
+    </item>
+    
+    <item>
+      <title>Building Habits</title>
+      <link>https://whhone.com/posts/building-habit/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://whhone.com/posts/building-habit/</guid>
+      <description>The recent shelter-in-place / stay-at-home order has dramatically changed our routines. I don&amp;rsquo;t need to commute to office so I do not listen to podcasts. I don&amp;rsquo;t have morning coffee since I have no access to the mirco-kitchen in the office. I walk less as I stay at home all day. I started doing daily push up because it is less awkward to do at home, compared to the office. I spend more time with Casper because he is just nearby.</description>
+    </item>
+    
+    <item>
+      <title>Daily Journal</title>
+      <link>https://whhone.com/posts/daily-journal/</link>
+      <pubDate>Sun, 15 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://whhone.com/posts/daily-journal/</guid>
+      <description>In the previous post 2019 Year-End Reflection, I wrote:
+ I kept a daily journal. When people ask me why keeping a journal, my 2019 answer was to track TODO and activity log, then review at the end of the day. My 2020 answer is to make every day meaningful and counted. I will share the nuances in another post later.
+ In this post, I will share how I got started and the 3 components of my daily journal.</description>
+    </item>
+    
+    <item>
+      <title>Effective Reading</title>
+      <link>https://whhone.com/posts/effective-reading/</link>
+      <pubDate>Sun, 02 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://whhone.com/posts/effective-reading/</guid>
+      <description>It is probably easier to explain what ineffective reading is first.
+If you are &amp;ldquo;seeing&amp;rdquo; the words without processing, no matter how many words you &amp;ldquo;see&amp;rdquo; per minute, it is ineffective. If you cannot recall or refer to the key concepts of an inspiring book you have read in the past, no matter how many books you have read, it is ineffective. If you cannot implement what you read and make some differences in real life, no matter how many books you are aiming to read in a year, it is ineffective.</description>
+    </item>
+    
+    <item>
+      <title>Productivity System</title>
+      <link>https://whhone.com/posts/productivity-system/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://whhone.com/posts/productivity-system/</guid>
+      <description>In this era, there are &amp;ldquo;productive people&amp;rdquo; who use &amp;ldquo;productivity systems&amp;rdquo; to manage day-to-day chores, TODOs, notes and so on. These productivity systems are usually note taking apps (Apple Notes, Evernote, Google Keep, OneNote), task manager apps (Todoist, Wunderlist, TickTick), paper notebooks or the combination of them.
+These &amp;ldquo;productive people&amp;rdquo; could be divided into two kinds.
+The first kind works for the system. They fill the system with unactionable tasks that will never get done and unreadable notes that will never get used again.</description>
+    </item>
+    
+  </channel>
+</rss>
