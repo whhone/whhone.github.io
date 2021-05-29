@@ -26,8 +26,8 @@ hugo new --kind posts posts/the-title
 # Adding a new theme
 git submodule add https://github.com/adityatelange/hugo-PaperMod
 
-# Updating the theme
-git submodule update
+# Updating theme (submodule)
+git submodule foreach git pull --rebase
 
 # Remove the submodule entry from .git/config
 git submodule deinit -f themes/mainroad
