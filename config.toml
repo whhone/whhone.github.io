@@ -44,6 +44,41 @@ name = "RSS"
 url = "index.xml"
 weight = 6
 
+[languages.zh]
+languageName = "中文"
+languageAltTitle = "中文"
+weight = 2
+
+[[languages.zh.menu.main]]
+name = "主頁"
+url = "/"
+weight = 1
+
+[[languages.zh.menu.main]]
+name = "Archives"
+url = "archives/"
+weight = 4
+
+[[languages.zh.menu.main]]
+name = "Tags"
+url = "tags/"
+weight = 3
+
+[[languages.zh.menu.main]]
+name = "Search"
+url = "search/"
+weight = 5
+
+[[languages.zh.menu.main]]
+name = "關於"
+url = "about/"
+weight = 2
+
+[[languages.zh.menu.main]]
+name = "RSS"
+url = "index.xml"
+weight = 6
+
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
 
