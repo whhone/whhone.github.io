@@ -54,6 +54,10 @@ defaultTheme = "auto"
 ShowShareButtons = false
 displayFullLangName = false
 disableSpecial1stPost = true
+[params.editPost]
+    URL = "https://github.com/whhone/blog/tree/main/content"
+    Text = "Source" # edit text
+    appendFilePath = true # to append file path to Edit link
 
 [taxonomies]
 category = "categories"
